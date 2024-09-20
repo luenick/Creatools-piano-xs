@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="__________" RRGroupAmount="3.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalU1.wav"
+          Duplicate="0" Normalized="1" NormalizedPeak="13.79705238342285"
+          LoopXFade="0" LoopStart="675" SampleStart="675" SampleStartMod="3000"
+          SampleEnd="100724" SampleRate="44100.0" Pan="-15" Volume="2"
+          MonolithOffset="0" MonolithLength="102400"/>
+  <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalD2.wav"
+          Duplicate="0" Normalized="1" NormalizedPeak="36.00879287719727"
+          SampleStartMod="20000" LoopXFade="0" LoopStart="3690" SampleStart="3690"
+          Volume="-14" SampleEnd="802223" SampleRate="44100.0" Pan="-21"
+          MonolithOffset="102400" MonolithLength="802816"/>
+  <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalU2.wav"
+          Duplicate="0" Normalized="1" NormalizedPeak="8.367722511291504"
+          LoopXFade="0" LoopStart="1378" SampleStart="1378" SampleStartMod="4500"
+          SampleEnd="72589" SampleRate="44100.0" Pan="-15" Volume="2" MonolithOffset="905216"
+          MonolithLength="73728"/>
+  <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalD2.wav"
+          Duplicate="1" Normalized="1" NormalizedPeak="36.00879287719727"
+          SampleStartMod="18000" LoopXFade="0" LoopStart="66852" SampleStart="6947"
+          Volume="-14" SampleEnd="802223" SampleRate="44100.0" Pan="-21"
+          MonolithOffset="978944" MonolithLength="802816"/>
+  <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalU1.wav"
+          Duplicate="1" Normalized="1" NormalizedPeak="13.79705238342285"
+          LoopXFade="0" LoopStart="721" SampleStart="721" SampleStartMod="4000"
+          SampleEnd="100724" SampleRate="44100.0" Pan="-15" Volume="2"
+          MonolithOffset="1781760" MonolithLength="102400"/>
+  <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/pedalD2.wav"
+          Duplicate="1" Normalized="1" NormalizedPeak="36.00879287719727"
+          SampleStartMod="16000" LoopXFade="0" LoopStart="8000" SampleStart="8000"
+          Volume="-14" SampleEnd="802223" SampleRate="44100.0" Pan="-21"
+          MonolithOffset="1884160" MonolithLength="802816"/>
+</samplemap>

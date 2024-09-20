@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Piano 1" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1543500" SampleRate="44100.0"
+          MonolithOffset="0" MonolithLength="1544192"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1599860" SampleRate="44100.0"
+          MonolithOffset="1544192" MonolithLength="1601536"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1847966" SampleRate="44100.0"
+          MonolithOffset="3145728" MonolithLength="1851392"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1794517" SampleRate="44100.0"
+          MonolithOffset="4997120" MonolithLength="1798144"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2035568" SampleRate="44100.0"
+          MonolithOffset="6795264" MonolithLength="2035712"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2357057" SampleRate="44100.0"
+          MonolithOffset="8830976" MonolithLength="2359296"/>
+  <sample Root="21" LoKey="12" HiKey="22" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A0v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2640091" SampleRate="44100.0"
+          MonolithOffset="11190272" MonolithLength="2641920"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2201208" SampleRate="44100.0"
+          MonolithOffset="13832192" MonolithLength="2203648"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2413770" SampleRate="44100.0"
+          MonolithOffset="16035840" MonolithLength="2416640"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2524108" SampleRate="44100.0"
+          MonolithOffset="18452480" MonolithLength="2527232"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2683132" SampleRate="44100.0"
+          MonolithOffset="20979712" MonolithLength="2686976"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2668579" SampleRate="44100.0"
+          MonolithOffset="23666688" MonolithLength="2670592"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2885595" SampleRate="44100.0"
+          MonolithOffset="26337280" MonolithLength="2887680"/>
+  <sample Root="33" LoKey="32" HiKey="34" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A1v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="3009560" SampleRate="44100.0"
+          MonolithOffset="29224960" MonolithLength="3010560"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1393295" SampleRate="44100.0"
+          MonolithOffset="32235520" MonolithLength="1396736"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1446745" SampleRate="44100.0"
+          MonolithOffset="33632256" MonolithLength="1449984"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1404232" SampleRate="44100.0"
+          MonolithOffset="35082240" MonolithLength="1404928"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1763559" SampleRate="44100.0"
+          MonolithOffset="36487168" MonolithLength="1765376"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1793900" SampleRate="44100.0"
+          MonolithOffset="38252544" MonolithLength="1794048"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1665304" SampleRate="44100.0"
+          MonolithOffset="40046592" MonolithLength="1667072"/>
+  <sample Root="45" LoKey="44" HiKey="46" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A2v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1972064" SampleRate="44100.0"
+          MonolithOffset="41713664" MonolithLength="1974272"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1212397" SampleRate="44100.0"
+          MonolithOffset="43687936" MonolithLength="1212416"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1234800" SampleRate="44100.0"
+          MonolithOffset="44900352" MonolithLength="1236992"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1211074" SampleRate="44100.0"
+          MonolithOffset="46137344" MonolithLength="1212416"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1264082" SampleRate="44100.0"
+          MonolithOffset="47349760" MonolithLength="1265664"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1390385" SampleRate="44100.0"
+          MonolithOffset="48615424" MonolithLength="1392640"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1422666" SampleRate="44100.0"
+          MonolithOffset="50008064" MonolithLength="1425408"/>
+  <sample Root="57" LoKey="56" HiKey="57" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A3v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1557877" SampleRate="44100.0"
+          MonolithOffset="51433472" MonolithLength="1560576"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1133150" SampleRate="44100.0"
+          MonolithOffset="52994048" MonolithLength="1134592"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="914017" SampleRate="44100.0"
+          MonolithOffset="54128640" MonolithLength="917504"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1157713" SampleRate="44100.0"
+          MonolithOffset="55046144" MonolithLength="1159168"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1344979" SampleRate="44100.0"
+          MonolithOffset="56205312" MonolithLength="1347584"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1194669" SampleRate="44100.0"
+          MonolithOffset="57552896" MonolithLength="1196032"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1441541" SampleRate="44100.0"
+          MonolithOffset="58748928" MonolithLength="1441792"/>
+  <sample Root="69" LoKey="68" HiKey="70" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A4v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1447097" SampleRate="44100.0"
+          MonolithOffset="60190720" MonolithLength="1449984"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="651401" SampleRate="44100.0"
+          MonolithOffset="61640704" MonolithLength="655360"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="858010" SampleRate="44100.0"
+          MonolithOffset="62296064" MonolithLength="860160"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="810867" SampleRate="44100.0"
+          MonolithOffset="63156224" MonolithLength="811008"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="844824" SampleRate="44100.0"
+          MonolithOffset="63967232" MonolithLength="847872"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="756183" SampleRate="44100.0"
+          MonolithOffset="64815104" MonolithLength="757760"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1090681" SampleRate="44100.0"
+          MonolithOffset="65572864" MonolithLength="1093632"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A5v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1040143" SampleRate="44100.0"
+          MonolithOffset="66666496" MonolithLength="1040384"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="421596" SampleRate="44100.0"
+          MonolithOffset="67706880" MonolithLength="421888"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="331323" SampleRate="44100.0"
+          MonolithOffset="68128768" MonolithLength="331776"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="378953" SampleRate="44100.0"
+          MonolithOffset="68460544" MonolithLength="380928"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="383846" SampleRate="44100.0"
+          MonolithOffset="68841472" MonolithLength="385024"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="428828" SampleRate="44100.0"
+          MonolithOffset="69226496" MonolithLength="430080"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="384287" SampleRate="44100.0"
+          MonolithOffset="69656576" MonolithLength="385024"/>
+  <sample Root="93" LoKey="92" HiKey="94" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/A6v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="327751" SampleRate="44100.0"
+          MonolithOffset="70041600" MonolithLength="331776"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1620234" SampleRate="44100.0"
+          MonolithOffset="70373376" MonolithLength="1622016"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1688589" SampleRate="44100.0"
+          MonolithOffset="71995392" MonolithLength="1691648"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1809599" SampleRate="44100.0"
+          MonolithOffset="73687040" MonolithLength="1810432"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1915616" SampleRate="44100.0"
+          MonolithOffset="75497472" MonolithLength="1916928"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2117153" SampleRate="44100.0"
+          MonolithOffset="77414400" MonolithLength="2117632"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2163282" SampleRate="44100.0"
+          MonolithOffset="79532032" MonolithLength="2166784"/>
+  <sample Root="24" LoKey="23" HiKey="25" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C1v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2384928" SampleRate="44100.0"
+          MonolithOffset="81698816" MonolithLength="2387968"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2125355" SampleRate="44100.0"
+          MonolithOffset="84086784" MonolithLength="2125824"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2139935" SampleRate="44100.0"
+          MonolithOffset="86212608" MonolithLength="2142208"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2131441" SampleRate="44100.0"
+          MonolithOffset="88354816" MonolithLength="2134016"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2551361" SampleRate="44100.0"
+          MonolithOffset="90488832" MonolithLength="2551808"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2824164" SampleRate="44100.0"
+          MonolithOffset="93040640" MonolithLength="2826240"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2910247" SampleRate="44100.0"
+          MonolithOffset="95866880" MonolithLength="2912256"/>
+  <sample Root="36" LoKey="35" HiKey="37" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C2v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="3263400" SampleRate="44100.0"
+          MonolithOffset="98779136" MonolithLength="3264512"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1421608" SampleRate="44100.0"
+          MonolithOffset="102043648" MonolithLength="1425408"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1592980" SampleRate="44100.0"
+          MonolithOffset="103469056" MonolithLength="1593344"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1706494" SampleRate="44100.0"
+          MonolithOffset="105062400" MonolithLength="1708032"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1731101" SampleRate="44100.0"
+          MonolithOffset="106770432" MonolithLength="1732608"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2243191" SampleRate="44100.0"
+          MonolithOffset="108503040" MonolithLength="2244608"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1858551" SampleRate="44100.0"
+          MonolithOffset="110747648" MonolithLength="1859584"/>
+  <sample Root="48" LoKey="47" HiKey="49" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C3v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2343651" SampleRate="44100.0"
+          MonolithOffset="112607232" MonolithLength="2347008"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1246707" SampleRate="44100.0"
+          MonolithOffset="114954240" MonolithLength="1249280"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1491714" SampleRate="44100.0"
+          MonolithOffset="116203520" MonolithLength="1495040"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1359868" SampleRate="44100.0"
+          MonolithOffset="117698560" MonolithLength="1359872"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1588747" SampleRate="44100.0"
+          MonolithOffset="119058432" MonolithLength="1589248"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1408466" SampleRate="44100.0"
+          MonolithOffset="120647680" MonolithLength="1409024"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1695733" SampleRate="44100.0"
+          MonolithOffset="122056704" MonolithLength="1695744"/>
+  <sample Root="60" LoKey="58" HiKey="61" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C4v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1754651" SampleRate="44100.0"
+          MonolithOffset="123752448" MonolithLength="1757184"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1013065" SampleRate="44100.0"
+          MonolithOffset="125509632" MonolithLength="1015808"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1039084" SampleRate="44100.0"
+          MonolithOffset="126525440" MonolithLength="1040384"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="928922" SampleRate="44100.0"
+          MonolithOffset="127565824" MonolithLength="929792"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1058665" SampleRate="44100.0"
+          MonolithOffset="128495616" MonolithLength="1060864"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1079039" SampleRate="44100.0"
+          MonolithOffset="129556480" MonolithLength="1081344"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1225892" SampleRate="44100.0"
+          MonolithOffset="130637824" MonolithLength="1228800"/>
+  <sample Root="72" LoKey="71" HiKey="73" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C5v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1287544" SampleRate="44100.0"
+          MonolithOffset="131866624" MonolithLength="1290240"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="586001" SampleRate="44100.0"
+          MonolithOffset="133156864" MonolithLength="589824"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="595615" SampleRate="44100.0"
+          MonolithOffset="133746688" MonolithLength="598016"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="625426" SampleRate="44100.0"
+          MonolithOffset="134344704" MonolithLength="626688"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="607478" SampleRate="44100.0"
+          MonolithOffset="134971392" MonolithLength="610304"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="667233" SampleRate="44100.0"
+          MonolithOffset="135581696" MonolithLength="667648"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="616342" SampleRate="44100.0"
+          MonolithOffset="136249344" MonolithLength="618496"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C6v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="736117" SampleRate="44100.0"
+          MonolithOffset="136867840" MonolithLength="737280"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="313639" SampleRate="44100.0"
+          MonolithOffset="137605120" MonolithLength="315392"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="288414" SampleRate="44100.0"
+          MonolithOffset="137920512" MonolithLength="290816"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="365413" SampleRate="44100.0"
+          MonolithOffset="138211328" MonolithLength="368640"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="365148" SampleRate="44100.0"
+          MonolithOffset="138579968" MonolithLength="368640"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="379260" SampleRate="44100.0"
+          MonolithOffset="138948608" MonolithLength="380928"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="372910" SampleRate="44100.0"
+          MonolithOffset="139329536" MonolithLength="376832"/>
+  <sample Root="96" LoKey="95" HiKey="97" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/C7v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="319637" SampleRate="44100.0"
+          MonolithOffset="139706368" MonolithLength="323584"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1772732" SampleRate="44100.0"
+          MonolithOffset="140029952" MonolithLength="1773568"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1963685" SampleRate="44100.0"
+          MonolithOffset="141803520" MonolithLength="1966080"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2008667" SampleRate="44100.0"
+          MonolithOffset="143769600" MonolithLength="2011136"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2122886" SampleRate="44100.0"
+          MonolithOffset="145780736" MonolithLength="2125824"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2420032" SampleRate="44100.0"
+          MonolithOffset="147906560" MonolithLength="2420736"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2271856" SampleRate="44100.0"
+          MonolithOffset="150327296" MonolithLength="2273280"/>
+  <sample Root="27" LoKey="26" HiKey="28" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#1v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2558241" SampleRate="44100.0"
+          MonolithOffset="152600576" MonolithLength="2560000"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2008755" SampleRate="44100.0"
+          MonolithOffset="155160576" MonolithLength="2011136"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2257567" SampleRate="44100.0"
+          MonolithOffset="157171712" MonolithLength="2260992"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2188860" SampleRate="44100.0"
+          MonolithOffset="159432704" MonolithLength="2191360"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2156843" SampleRate="44100.0"
+          MonolithOffset="161624064" MonolithLength="2158592"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2001346" SampleRate="44100.0"
+          MonolithOffset="163782656" MonolithLength="2002944"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2745401" SampleRate="44100.0"
+          MonolithOffset="165785600" MonolithLength="2748416"/>
+  <sample Root="39" LoKey="38" HiKey="40" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#2v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2630477" SampleRate="44100.0"
+          MonolithOffset="168534016" MonolithLength="2633728"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1258967" SampleRate="44100.0"
+          MonolithOffset="171167744" MonolithLength="1261568"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1349725" SampleRate="44100.0"
+          MonolithOffset="172429312" MonolithLength="1351680"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1625702" SampleRate="44100.0"
+          MonolithOffset="173780992" MonolithLength="1626112"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1713638" SampleRate="44100.0"
+          MonolithOffset="175407104" MonolithLength="1716224"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1893978" SampleRate="44100.0"
+          MonolithOffset="177123328" MonolithLength="1896448"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1675006" SampleRate="44100.0"
+          MonolithOffset="179019776" MonolithLength="1675264"/>
+  <sample Root="51" LoKey="50" HiKey="51" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#3v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2162400" SampleRate="44100.0"
+          MonolithOffset="180695040" MonolithLength="2162688"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1158595" SampleRate="44100.0"
+          MonolithOffset="182857728" MonolithLength="1159168"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1186996" SampleRate="44100.0"
+          MonolithOffset="184016896" MonolithLength="1187840"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1227127" SampleRate="44100.0"
+          MonolithOffset="185204736" MonolithLength="1228800"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1341081" SampleRate="44100.0"
+          MonolithOffset="186433536" MonolithLength="1343488"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1244061" SampleRate="44100.0"
+          MonolithOffset="187777024" MonolithLength="1245184"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1194052" SampleRate="44100.0"
+          MonolithOffset="189022208" MonolithLength="1196032"/>
+  <sample Root="63" LoKey="62" HiKey="64" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#4v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1141396" SampleRate="44100.0"
+          MonolithOffset="190218240" MonolithLength="1142784"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="787714" SampleRate="44100.0"
+          MonolithOffset="191361024" MonolithLength="790528"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="910224" SampleRate="44100.0"
+          MonolithOffset="192151552" MonolithLength="913408"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="896818" SampleRate="44100.0"
+          MonolithOffset="193064960" MonolithLength="897024"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="807030" SampleRate="44100.0"
+          MonolithOffset="193961984" MonolithLength="811008"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="936772" SampleRate="44100.0"
+          MonolithOffset="194772992" MonolithLength="937984"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="997277" SampleRate="44100.0"
+          MonolithOffset="195710976" MonolithLength="999424"/>
+  <sample Root="75" LoKey="74" HiKey="76" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#5v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1285956" SampleRate="44100.0"
+          MonolithOffset="196710400" MonolithLength="1286144"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="401751" SampleRate="44100.0"
+          MonolithOffset="197996544" MonolithLength="405504"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="516323" SampleRate="44100.0"
+          MonolithOffset="198402048" MonolithLength="520192"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="591646" SampleRate="44100.0"
+          MonolithOffset="198922240" MonolithLength="593920"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="593101" SampleRate="44100.0"
+          MonolithOffset="199516160" MonolithLength="593920"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="577886" SampleRate="44100.0"
+          MonolithOffset="200110080" MonolithLength="581632"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="538637" SampleRate="44100.0"
+          MonolithOffset="200691712" MonolithLength="540672"/>
+  <sample Root="87" LoKey="85" HiKey="88" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#6v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="628866" SampleRate="44100.0"
+          MonolithOffset="201232384" MonolithLength="630784"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="333131" SampleRate="44100.0"
+          MonolithOffset="201863168" MonolithLength="335872"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="347508" SampleRate="44100.0"
+          MonolithOffset="202199040" MonolithLength="348160"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="349007" SampleRate="44100.0"
+          MonolithOffset="202547200" MonolithLength="352256"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="325634" SampleRate="44100.0"
+          MonolithOffset="202899456" MonolithLength="327680"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="387463" SampleRate="44100.0"
+          MonolithOffset="203227136" MonolithLength="389120"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="369934" SampleRate="44100.0"
+          MonolithOffset="203616256" MonolithLength="372736"/>
+  <sample Root="99" LoKey="98" HiKey="99" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/D#7v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="409424" SampleRate="44100.0"
+          MonolithOffset="203988992" MonolithLength="409600"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1838441" SampleRate="44100.0"
+          MonolithOffset="204398592" MonolithLength="1839104"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2268857" SampleRate="44100.0"
+          MonolithOffset="206237696" MonolithLength="2269184"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2273355" SampleRate="44100.0"
+          MonolithOffset="208506880" MonolithLength="2277376"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2378137" SampleRate="44100.0"
+          MonolithOffset="210784256" MonolithLength="2379776"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2309164" SampleRate="44100.0"
+          MonolithOffset="213164032" MonolithLength="2310144"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2589199" SampleRate="44100.0"
+          MonolithOffset="215474176" MonolithLength="2592768"/>
+  <sample Root="30" LoKey="29" HiKey="31" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#1v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2910953" SampleRate="44100.0"
+          MonolithOffset="218066944" MonolithLength="2912256"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1248471" SampleRate="44100.0"
+          MonolithOffset="220979200" MonolithLength="1249280"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1561405" SampleRate="44100.0"
+          MonolithOffset="222228480" MonolithLength="1564672"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1673507" SampleRate="44100.0"
+          MonolithOffset="223793152" MonolithLength="1675264"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1852817" SampleRate="44100.0"
+          MonolithOffset="225468416" MonolithLength="1855488"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2003904" SampleRate="44100.0"
+          MonolithOffset="227323904" MonolithLength="2007040"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2218230" SampleRate="44100.0"
+          MonolithOffset="229330944" MonolithLength="2220032"/>
+  <sample Root="42" LoKey="41" HiKey="43" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#2v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2270621" SampleRate="44100.0"
+          MonolithOffset="231550976" MonolithLength="2273280"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1357486" SampleRate="44100.0"
+          MonolithOffset="233824256" MonolithLength="1359872"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1493491" SampleRate="44100.0"
+          MonolithOffset="235184128" MonolithLength="1495040"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1562198" SampleRate="44100.0"
+          MonolithOffset="236679168" MonolithLength="1564672"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1827841" SampleRate="44100.0"
+          MonolithOffset="238243840" MonolithLength="1830912"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1842674" SampleRate="44100.0"
+          MonolithOffset="240074752" MonolithLength="1843200"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1898681" SampleRate="44100.0"
+          MonolithOffset="241917952" MonolithLength="1900544"/>
+  <sample Root="54" LoKey="52" HiKey="55" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#3v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="2109744" SampleRate="44100.0"
+          MonolithOffset="243818496" MonolithLength="2113536"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="981093" SampleRate="44100.0"
+          MonolithOffset="245932032" MonolithLength="983040"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1083361" SampleRate="44100.0"
+          MonolithOffset="246915072" MonolithLength="1085440"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1108057" SampleRate="44100.0"
+          MonolithOffset="248000512" MonolithLength="1110016"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1044994" SampleRate="44100.0"
+          MonolithOffset="249110528" MonolithLength="1048576"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1082479" SampleRate="44100.0"
+          MonolithOffset="250159104" MonolithLength="1085440"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1331732" SampleRate="44100.0"
+          MonolithOffset="251244544" MonolithLength="1335296"/>
+  <sample Root="66" LoKey="65" HiKey="67" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#4v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1473998" SampleRate="44100.0"
+          MonolithOffset="252579840" MonolithLength="1474560"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="507194" SampleRate="44100.0"
+          MonolithOffset="254054400" MonolithLength="507904"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="622736" SampleRate="44100.0"
+          MonolithOffset="254562304" MonolithLength="626688"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="803326" SampleRate="44100.0"
+          MonolithOffset="255188992" MonolithLength="806912"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="932103" SampleRate="44100.0"
+          MonolithOffset="255995904" MonolithLength="933888"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="1113994" SampleRate="44100.0"
+          MonolithOffset="256929792" MonolithLength="1114112"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="904050" SampleRate="44100.0"
+          MonolithOffset="258043904" MonolithLength="905216"/>
+  <sample Root="78" LoKey="77" HiKey="80" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#5v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="856378" SampleRate="44100.0"
+          MonolithOffset="258949120" MonolithLength="860160"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="441706" SampleRate="44100.0"
+          MonolithOffset="259809280" MonolithLength="442368"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="462609" SampleRate="44100.0"
+          MonolithOffset="260251648" MonolithLength="462848"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="462477" SampleRate="44100.0"
+          MonolithOffset="260714496" MonolithLength="462848"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="421243" SampleRate="44100.0"
+          MonolithOffset="261177344" MonolithLength="421888"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="523908" SampleRate="44100.0"
+          MonolithOffset="261599232" MonolithLength="524288"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="618767" SampleRate="44100.0"
+          MonolithOffset="262123520" MonolithLength="622592"/>
+  <sample Root="90" LoKey="89" HiKey="91" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#6v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="660001" SampleRate="44100.0"
+          MonolithOffset="262746112" MonolithLength="663552"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="0" HiVel="10" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v5.wav"
+          Duplicate="0" Volume="-3" SampleEnd="233818" SampleRate="44100.0"
+          MonolithOffset="263409664" MonolithLength="237568"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="11" HiVel="25" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v7.wav"
+          Duplicate="0" Volume="-3" SampleEnd="201625" SampleRate="44100.0"
+          MonolithOffset="263647232" MonolithLength="204800"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="26" HiVel="42" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v9.wav"
+          Duplicate="0" Volume="-3" SampleEnd="233149" SampleRate="44100.0"
+          MonolithOffset="263852032" MonolithLength="233472"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="43" HiVel="62" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v11.wav"
+          Duplicate="0" Volume="-3" SampleEnd="264776" SampleRate="44100.0"
+          MonolithOffset="264085504" MonolithLength="266240"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="63" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v13.wav"
+          Duplicate="0" Volume="-3" SampleEnd="292030" SampleRate="44100.0"
+          MonolithOffset="264351744" MonolithLength="294912"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="91" HiVel="119" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v15.wav"
+          Duplicate="0" Volume="-3" SampleEnd="302614" SampleRate="44100.0"
+          MonolithOffset="264646656" MonolithLength="303104"/>
+  <sample Root="102" LoKey="100" HiKey="120" LoVel="120" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}bitKlavierGrand_PianoBar_44k16b/F#7v16.wav"
+          Duplicate="0" Volume="-3" SampleEnd="284004" SampleRate="44100.0"
+          MonolithOffset="264949760" MonolithLength="286720"/>
+</samplemap>

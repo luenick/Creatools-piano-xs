@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="PHKnob" value="0.0"/>
+    <Control type="ScriptSlider" id="Compression Threshold" value="-18.29999923706055"/>
+    <Control type="ScriptSlider" id="Compression Ratio" value="3.600000143051147"/>
+    <Control type="ScriptButton" id="Compression On Off" value="1.0"/>
+    <Control type="ScriptSlider" id="Master Volume" value="-6.799999237060547"/>
+    <Control type="ScriptSlider" id="Master Panorama" value="0.0"/>
+    <Control type="ScriptSlider" id="Master Image" value="131.0"/>
+    <Control type="ScriptSlider" id="Master Transpose" value="-12.0"/>
+    <Control type="ScriptComboBox" id="Impulse" value="7.0"/>
+    <Control type="ScriptSlider" id="Reverb Reflection" value="94.66999816894531"/>
+    <Control type="ScriptSlider" id="Reverb Send" value="-26.19999885559082"/>
+    <Control type="ScriptButton" id="Reverb Low Cut On Off" value="1.0"/>
+    <Control type="ScriptButton" id="Reverb Send On Off" value="1.0"/>
+    <Control type="ScriptComboBox" id="Impulse1" value="1.0"/>
+    <Control type="ScriptSlider" id="String Resonance amount" value="-18.5"/>
+    <Control type="ScriptButton" id="String Resonance On Off" value="1.0"/>
+    <Control type="ScriptSlider" id="Pedal Sounds " value="-4.5"/>
+    <Control type="ScriptButton" id="Pedal Sounds On Off " value="1.0"/>
+    <Control type="ScriptButton" id="GFilter label On Off" value="1.0"/>
+    <Control type="ScriptComboBox" id="G1FilterType" value="8.0"/>
+    <Control type="ScriptSlider" id="Global Filter Frequency" value="2071.889892578125"/>
+    <Control type="ScriptSlider" id="Global Filter Resonance" value="2.049999952316284"/>
+    <Control type="ScriptSlider" id="Global Filter Gain" value="0.0"/>
+    <Control type="ScriptComboBox" id="E1SampleMap" value="2.0"/>
+    <Control type="ScriptSlider" id="E1 SampleStart Position" value="0.5400000214576721"/>
+    <Control type="ScriptSlider" id="E1 SampleStart Random" value="0.5299999713897705"/>
+    <Control type="ScriptSlider" id="E1 SampleStart Velocity" value="0.0"/>
+    <Control type="ScriptSlider" id="E1 Volume" value="0.0"/>
+    <Control type="ScriptButton" id="E1 On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E1 Force Mono" value="0.0"/>
+    <Control type="ScriptSlider" id="E1 Transpose" value="12.0"/>
+    <Control type="ScriptSlider" id="E1_PitchShift" value="-1.0"/>
+    <Control type="ScriptSlider" id="E1 Envelope Attack" value="22.0"/>
+    <Control type="ScriptSlider" id="E1 Envelope Release1" value="30000.0"/>
+    <Control type="ScriptSlider" id="E1 Envelope Decay" value="60000.0"/>
+    <Control type="ScriptSlider" id="E1 Envelope Release" value="478.0"/>
+    <Control type="ScriptSlider" id="E1 Velocity" value="0.8899999856948853"/>
+    <Control type="ScriptButton" id="E1 Velocity Exponential On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E1 Filter On Off" value="1.0"/>
+    <Control type="ScriptComboBox" id="E1FilterType" value="4.0"/>
+    <Control type="ScriptSlider" id="E1 Filter Frequency" value="511.0"/>
+    <Control type="ScriptSlider" id="E1 Filter Resonance" value="1.990000009536743"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Intensity" value="0.6499999761581421"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Attack" value="52.0"/>
+    <Control type="ScriptSlider" id="E1 Filter Velocity Attack" value="0.0"/>
+    <Control type="ScriptButton" id="E1 Filter Exponential Velocity On Off1"
+             value="0.0"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Decay" value="31756.099609375"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Sustain" value="-100.0"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Release" value="6983.10009765625"/>
+    <Control type="ScriptSlider" id="E1 Filter Envelope Velocity" value="0.9800000190734863"/>
+    <Control type="ScriptButton" id="E1 Filter Exponential Velocity On Off"
+             value="0.0"/>
+    <Control type="ScriptComboBox" id="E2SampleMap" value="3.0"/>
+    <Control type="ScriptSlider" id="E2 SampleStart Position" value="0.2899999916553497"/>
+    <Control type="ScriptSlider" id="E2 SampleStart Random" value="0.5400000214576721"/>
+    <Control type="ScriptSlider" id="E2 SampleStart Velocity" value="0.0"/>
+    <Control type="ScriptSlider" id="E2 Volume" value="-1.899998545646667"/>
+    <Control type="ScriptButton" id="E2 On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E2 Force Mono" value="0.0"/>
+    <Control type="ScriptSlider" id="E2 Transpose" value="-12.0"/>
+    <Control type="ScriptButton" id="E2 Release Trigger On Off" value="0.0"/>
+    <Control type="ScriptSlider" id="E2_PitchShift" value="1.0"/>
+    <Control type="ScriptSlider" id="E2 Envelope Attack" value="15.0"/>
+    <Control type="ScriptSlider" id="E2 Envelope Hold" value="30000.0"/>
+    <Control type="ScriptSlider" id="E2 Envelope Decay" value="60000.0"/>
+    <Control type="ScriptSlider" id="E2 Envelope Release" value="801.0"/>
+    <Control type="ScriptSlider" id="E2 Velocity" value="0.0"/>
+    <Control type="ScriptButton" id="E2 Velocity Exponential On Off" value="0.0"/>
+    <Control type="ScriptButton" id="E2 Filter On Off" value="1.0"/>
+    <Control type="ScriptComboBox" id="E2FilterType" value="8.0"/>
+    <Control type="ScriptSlider" id="E2 Filter Frequency" value="1946.0"/>
+    <Control type="ScriptSlider" id="E2 Filter Resonance" value="2.859999895095825"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Intensity" value="0.0"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Attack" value="1.100000023841858"/>
+    <Control type="ScriptSlider" id="E2 Filter Velocity Attack" value="0.0"/>
+    <Control type="ScriptButton" id="E2 Filter Exponential Velocity On Off"
+             value="0.0"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Decay" value="0.1000000014901161"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Sustain" value="-100.0"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Release" value="0.1000000014901161"/>
+    <Control type="ScriptSlider" id="E2 Filter Envelope Velocity" value="0.9399999976158142"/>
+    <Control type="ScriptButton" id="E2 Filter Exponential Velocity2 On Off"
+             value="0.0"/>
+    <Control type="ScriptComboBox" id="E3SampleMap" value="7.0"/>
+    <Control type="ScriptSlider" id="E3 SampleStart Position" value="0.5"/>
+    <Control type="ScriptSlider" id="E3 SampleStart Random" value="0.5199999809265137"/>
+    <Control type="ScriptSlider" id="E3 SampleStart Velocity" value="0.0"/>
+    <Control type="ScriptSlider" id="E3 Volume" value="-6.199998378753662"/>
+    <Control type="ScriptSlider" id="E3_Transpose" value="0.0"/>
+    <Control type="ScriptButton" id="E3 On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E3 Force Mono" value="0.0"/>
+    <Control type="ScriptButton" id="E3 Release Trigger On Off" value="0.0"/>
+    <Control type="ScriptSlider" id="E3_PitchShift" value="0.0"/>
+    <Control type="ScriptSlider" id="E3 Envelope Attack" value="19.0"/>
+    <Control type="ScriptSlider" id="E3 Envelope Hold" value="30000.0"/>
+    <Control type="ScriptSlider" id="E3 Envelope Decay" value="3846.0"/>
+    <Control type="ScriptSlider" id="E3 Envelope Release" value="1296.0"/>
+    <Control type="ScriptSlider" id="E3 Velocity" value="1.0"/>
+    <Control type="ScriptButton" id="E3 Velocity Exponential On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E3 Velocity Decay On Off" value="1.0"/>
+    <Control type="ScriptButton" id="E3 Filter On Off" value="1.0"/>
+    <Control type="ScriptComboBox" id="E3FilterType" value="4.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Frequency" value="5785.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Resonance" value="8.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Intensity" value="0.6700000166893005"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Attack" value="13.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Velocity Attack" value="0.0"/>
+    <Control type="ScriptButton" id="E3 Filter Exponential Velocity On Off"
+             value="0.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Decay" value="5293.10009765625"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Sustain" value="-100.0"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Release" value="536.0999755859375"/>
+    <Control type="ScriptSlider" id="E3 Filter Envelope Velocity" value="0.75"/>
+    <Control type="ScriptButton" id="E3 Filter Exponential Velocity On Off2"
+             value="0.0"/>
+  </Content>
+  <MidiAutomation>
+    <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="2071.89"
+                End="4762.85" FullStart="20.0" FullEnd="20000.0" Skew="0.266319563348789"
+                Interval="0.01" Attribute="Global Filter Frequency" Inverted="0"/>
+    <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="1.080000011920929"
+                End="2.050000011920929" FullStart="0.300000011920929" FullEnd="8.0"
+                Skew="0.2890648244515751" Interval="0.01" Attribute="Global Filter Resonance"
+                Inverted="1"/>
+  </MidiAutomation>
+  <MPEData Enabled="0"/>
+</Preset>
