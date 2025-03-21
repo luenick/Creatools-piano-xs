@@ -2,10 +2,10 @@
 
 <ProjectSettings>
   <Name value="Creatools Piano XS"/>
-  <Version value="1.0.0"/>
-  <Description value="acoustic piano synth"/>
+  <Version value="1.1.0"/>
+  <Description value="acoustic piano rompler"/>
   <BundleIdentifier value="com.myCompany.product"/>
-  <PluginCode value="Abcd"/>
+  <PluginCode value="Mtcp"/>
   <EmbedAudioFiles value="Yes"/>
   <EmbedImageFiles value="Yes"/>
   <SupportFullDynamicsHLAC value="1"/>
@@ -34,11 +34,12 @@
   <EmbedUserPresets value="Yes"/>
   <EnableGlobalPreprocessor value="1"/>
   <VST3Category value="Sampler"/>
-  <OverwriteOldUserPresets value="No"/>
+  <OverwriteOldUserPresets value="1"/>
   <UseGlobalAppDataFolderWindows value="No"/>
   <UseGlobalAppDataFolderMacOS value="No"/>
-  <DefaultUserPreset value=""/>
+  <DefaultUserPreset value="\User Presets\00 PIANO XS FACTORY\1  Performance\A Piano.preset"/>
   <CompileWithPerfetto value="No"/>
   <CompileWithDebugSymbols value="No"/>
   <IncludeLorisInFrontend value="No"/>
+  <ExtraDefinitionsNetworkDll value=""/>
 </ProjectSettings>
