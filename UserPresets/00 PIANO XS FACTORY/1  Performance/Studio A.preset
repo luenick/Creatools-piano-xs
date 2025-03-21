@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="PHKnob" value="0.0"/>
     <Control type="ScriptSlider" id="Compression Threshold" value="-14.0"/>
@@ -32,7 +32,7 @@
     <Control type="ScriptSlider" id="E1 Volume" value="-2.399998664855957"/>
     <Control type="ScriptButton" id="E1 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E1 Force Mono" value="0.0"/>
-    <Control type="ScriptSlider" id="E1 Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E1Transposer" value="0.0"/>
     <Control type="ScriptSlider" id="E1_PitchShift" value="0.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Attack" value="5.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Release1" value="30000.0"/>
@@ -62,9 +62,9 @@
     <Control type="ScriptSlider" id="E2 Volume" value="-17.59999847412109"/>
     <Control type="ScriptButton" id="E2 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E2 Force Mono" value="0.0"/>
-    <Control type="ScriptSlider" id="E2 Transpose" value="6.0"/>
+    <Control type="ScriptSlider" id="E2Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E2 Release Trigger On Off" value="1.0"/>
-    <Control type="ScriptSlider" id="E2_PitchShift" value="0.1099999994039536"/>
+    <Control type="ScriptSlider" id="E2_PitchShift" value="0.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Attack" value="5.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Hold" value="0.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Decay" value="2671.0"/>
@@ -91,7 +91,7 @@
     <Control type="ScriptSlider" id="E3 SampleStart Random" value="0.5400000214576721"/>
     <Control type="ScriptSlider" id="E3 SampleStart Velocity" value="0.75"/>
     <Control type="ScriptSlider" id="E3 Volume" value="-16.69999885559082"/>
-    <Control type="ScriptSlider" id="E3_Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E3Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E3 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E3 Force Mono" value="0.0"/>
     <Control type="ScriptButton" id="E3 Release Trigger On Off" value="1.0"/>
@@ -122,6 +122,7 @@
   <MidiAutomation>
     <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="-35.0"
                 End="-20.0" FullStart="-50.0" FullEnd="-20.0" Skew="1.0" Interval="0.01"
+                Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
                 Attribute="Reverb Send" Inverted="0"/>
   </MidiAutomation>
   <MPEData Enabled="0"/>

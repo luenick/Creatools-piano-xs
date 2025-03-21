@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="PHKnob" value="0.0"/>
     <Control type="ScriptSlider" id="Compression Threshold" value="-10.5"/>

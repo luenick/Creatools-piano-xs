@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="PHKnob" value="0.0"/>
     <Control type="ScriptSlider" id="Compression Threshold" value="-13.60000038146973"/>
@@ -24,7 +24,7 @@
     <Control type="ScriptComboBox" id="G1FilterType" value="8.0"/>
     <Control type="ScriptSlider" id="Global Filter Frequency" value="2302.0"/>
     <Control type="ScriptSlider" id="Global Filter Resonance" value="0.6200000047683716"/>
-    <Control type="ScriptSlider" id="Global Filter Bias" value="-0.5"/>
+    <Control type="ScriptSlider" id="Global Filter Gain" value="0.0"/>
     <Control type="ScriptComboBox" id="E1SampleMap" value="6.0"/>
     <Control type="ScriptSlider" id="E1 SampleStart Position" value="1.0"/>
     <Control type="ScriptSlider" id="E1 SampleStart Random" value="0.0"/>
@@ -32,7 +32,7 @@
     <Control type="ScriptSlider" id="E1 Volume" value="-2.399998664855957"/>
     <Control type="ScriptButton" id="E1 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E1 Force Mono" value="0.0"/>
-    <Control type="ScriptSlider" id="E1 Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E1Transposer" value="0.0"/>
     <Control type="ScriptSlider" id="E1_PitchShift" value="0.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Attack" value="5.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Release1" value="30000.0"/>
@@ -59,12 +59,12 @@
     <Control type="ScriptSlider" id="E2 SampleStart Position" value="0.3300000131130219"/>
     <Control type="ScriptSlider" id="E2 SampleStart Random" value="0.8500000238418579"/>
     <Control type="ScriptSlider" id="E2 SampleStart Velocity" value="0.0"/>
-    <Control type="ScriptSlider" id="E2 Volume" value="-25.09999847412109"/>
+    <Control type="ScriptSlider" id="E2 Volume" value="-19.79999923706055"/>
     <Control type="ScriptButton" id="E2 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E2 Force Mono" value="0.0"/>
-    <Control type="ScriptSlider" id="E2 Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E2Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E2 Release Trigger On Off" value="0.0"/>
-    <Control type="ScriptSlider" id="E2_PitchShift" value="0.1099999994039536"/>
+    <Control type="ScriptSlider" id="E2_PitchShift" value="11.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Attack" value="9.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Hold" value="29300.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Decay" value="2671.0"/>
@@ -90,12 +90,12 @@
     <Control type="ScriptSlider" id="E3 SampleStart Position" value="0.2899999916553497"/>
     <Control type="ScriptSlider" id="E3 SampleStart Random" value="0.5400000214576721"/>
     <Control type="ScriptSlider" id="E3 SampleStart Velocity" value="0.75"/>
-    <Control type="ScriptSlider" id="E3 Volume" value="-24.09999847412109"/>
-    <Control type="ScriptSlider" id="E3_Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E3 Volume" value="-19.79999923706055"/>
+    <Control type="ScriptSlider" id="E3Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E3 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E3 Force Mono" value="0.0"/>
     <Control type="ScriptButton" id="E3 Release Trigger On Off" value="1.0"/>
-    <Control type="ScriptSlider" id="E3_PitchShift" value="0.0"/>
+    <Control type="ScriptSlider" id="E3_PitchShift" value="7.0"/>
     <Control type="ScriptSlider" id="E3 Envelope Attack" value="6.0"/>
     <Control type="ScriptSlider" id="E3 Envelope Hold" value="0.0"/>
     <Control type="ScriptSlider" id="E3 Envelope Decay" value="4680.0"/>
@@ -122,7 +122,8 @@
   <MidiAutomation>
     <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="-0.5"
                 End="0.5" FullStart="-0.5" FullEnd="0.5" Skew="1.0" Interval="0.01"
-                Attribute="Global Filter Bias" Inverted="0"/>
+                Converter="37.nT6K8CBGgC..VEFa0U1Pu4lckIGckIG.ADPXiQWZ1UF.ADv..."
+                Attribute="" Inverted="0"/>
   </MidiAutomation>
   <MPEData Enabled="0"/>
 </Preset>

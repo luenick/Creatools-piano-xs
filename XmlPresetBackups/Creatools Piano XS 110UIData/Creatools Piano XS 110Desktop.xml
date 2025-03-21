@@ -1,0 +1,2166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptPanel" id="Background Panel" x="0.0" y="0.0" width="880.0"
+             height="660.0" bgColour="16777215" textColour="16777215" itemColour="4281940281"
+             itemColour2="4282927176" borderSize="0.0" borderRadius="0.0">
+    <Component type="ScriptSlider" id="PHKnob" x="435.0" y="-63.0" parentComponent="Background Panel"
+               enableMidiLearn="0"/>
+    <Component type="ScriptLabel" id="Label - Instrument Name" x="655.0" y="0.0"
+               parentComponent="Background Panel" height="30.0" width="170.0"
+               text="CREATOOLS | PIANO XS" fontName="League Gothic" fontSize="26.0"
+               editable="0" textColour="4288322202"/>
+    <Component type="ScriptFloatingTile" id="ToolTip" x="551.0" y="3.0" width="260.0"
+               height="25.0" parentComponent="Background Panel" ContentType="TooltipPanel"
+               bgColour="4281874488" itemColour="872415231" itemColour2="0"
+               textColour="4290822336" Font="Cabin" FontSize="12.0"/>
+    <Component type="ScriptPanel" id="Preset Name Panel" x="251.0" y="4.0" bgColour="4278190080"
+               textColour="547388514" height="24.0" itemColour="4279174400"
+               itemColour2="1449874748" width="280.0" borderRadius="2.0" borderSize="1.0"
+               parentComponent="Background Panel">
+      <Component type="ScriptLabel" id="PresetName" x="2.0" y="2.0" parentComponent="Preset Name Panel"
+                 width="276.0" height="20.0" bgColour="1114984479" itemColour="721401965"
+                 text="A Piano" editable="0" textColour="2566900521" fontName="League Gothic"
+                 fontStyle="Bold" fontSize="20.0"/>
+      <Component type="ScriptButton" id="PrevBtn" x="3.0" y="2.0" width="26.0"
+                 height="20.0" parentComponent="Preset Name Panel" scaleFactor="0.1800000071525574"
+                 isMomentary="1" saveInPreset="0" enableMidiLearn="0" tooltip="click to load previous preset"
+                 filmstripImage="{PROJECT_FOLDER}empty2.png"/>
+      <Component type="ScriptButton" id="NextBtn" x="251.0" y="2.0" width="26.0"
+                 height="20.0" parentComponent="Preset Name Panel" scaleFactor="0.1800000071525574"
+                 isMomentary="1" saveInPreset="0" enableMidiLearn="0" tooltip="click to load next preset"
+                 filmstripImage="{PROJECT_FOLDER}empty2.png"/>
+      <Component type="ScriptLabel" id="Previous label" x="2.0" y="2.0" parentComponent="Preset Name Panel"
+                 width="28.0" height="20.0" bgColour="7688223" itemColour="16758893"
+                 text="&lt;" fontName="LeagueGothic-Regular" fontStyle="Bold"
+                 fontSize="24.0" editable="0" textColour="4294953509" enabled="0"/>
+      <Component type="ScriptLabel" id="Next label" x="250.0" y="2.0" parentComponent="Preset Name Panel"
+                 width="28.0" height="20.0" bgColour="7688223" itemColour="16758893"
+                 text="&gt;" fontName="LeagueGothic-Regular" fontStyle="Bold"
+                 fontSize="24.0" editable="0" textColour="4294953509" enabled="0"/>
+    </Component>
+  </Component>
+  <Component type="ScriptButton" id="Button1" x="13.0" y="7.0" width="52.0"
+             height="18.0" radioGroup="1.0" saveInPreset="0" text="MAIN" scaleFactor="0.3499999940395355"
+             filmstripImage="{PROJECT_FOLDER}Keys Button 5.png" tooltip="click to open MAIN page"
+             enableMidiLearn="0"/>
+  <Component type="ScriptButton" id="Button2" x="71.0" y="7.0" width="52.0"
+             height="18.0" radioGroup="1.0" saveInPreset="0" text="EDIT" scaleFactor="0.3499999940395355"
+             filmstripImage="{PROJECT_FOLDER}Keys Button 5.png" tooltip="click to open EDITOR page"
+             enableMidiLearn="0"/>
+  <Component type="ScriptButton" id="Button3" x="186.0" y="7.0" width="52.0"
+             height="18.0" radioGroup="1.0" saveInPreset="0" text="PRESET"
+             filmstripImage="{PROJECT_FOLDER}Keys Button 5.png" scaleFactor="0.3499999940395355"
+             tooltip="click to open PRESET page" enableMidiLearn="0"/>
+  <Component type="ScriptButton" id="Button4" x="128.0" y="7.0" width="52.0"
+             height="18.0" radioGroup="1.0" saveInPreset="0" filmstripImage="{PROJECT_FOLDER}Keys Button 5.png"
+             scaleFactor="0.3499999940395355" tooltip="click to open SETTINGS page"
+             enableMidiLearn="0"/>
+  <Component type="ScriptLabel" id="Main label" x="12.0" y="7.0" width="53.0"
+             height="17.0" text="MAIN" fontName="League Gothic" fontStyle="Bold"
+             fontSize="16.0" editable="0" enabled="0" textColour="4278848010"
+             itemColour="4281280291"/>
+  <Component type="ScriptLabel" id="Editor label" x="70.0" y="7.0" width="53.0"
+             height="17.0" text="EDITOR" fontName="League Gothic" fontStyle="Bold"
+             fontSize="16.0" editable="0" enabled="0" textColour="4278848010"
+             itemColour="4281280291"/>
+  <Component type="ScriptLabel" id="Preset label" x="185.0" y="7.0" width="53.0"
+             height="17.0" text="PRESET" fontName="League Gothic" fontStyle="Bold"
+             fontSize="16.0" editable="0" enabled="0" textColour="4278848010"
+             itemColour="4281280291"/>
+  <Component type="ScriptLabel" id="Settings label" x="127.0" y="7.0" width="53.0"
+             height="17.0" text="SETTINGS" fontName="League Gothic" fontStyle="Bold"
+             fontSize="16.0" editable="0" enabled="0" textColour="4278848010"
+             itemColour="4281280291"/>
+  <Component type="ScriptPanel" id="gfx - VuMeter Panel" x="776.0" y="29.0"
+             height="630.0" width="36.0" borderRadius="1.0" itemColour="4280821800"
+             itemColour2="4281348144" textColour="1369086618" bgColour="0">
+    <Component type="ScriptPanel" id="VuMeter" x="1.0" y="2.0" width="34" height="548"
+               bgColour="4279505940" itemColour="4294928896" itemColour2="4279505940"
+               textColour="4283782485" parentComponent="gfx - VuMeter Panel"
+               opaque="1"/>
+    <Component type="ScriptPanel" id="VuMeter Cover Panel" x="-2.0" y="3.0"
+               width="42.0" height="520.0" parentComponent="gfx - VuMeter Panel"
+               itemColour="2153010260" itemColour2="4280690214" textColour="3089639464"
+               bgColour="16777215" borderRadius="0.0" borderSize="5.0"/>
+    <Component type="ScriptPanel" id="BlurVuMeter" x="4.0" y="10.0" height="614.0"
+               width="30.0" bgColour="16777215" itemColour="4294928896" itemColour2="0"
+               textColour="16777215" parentComponent="gfx - VuMeter Panel" enabled="0"
+               visible="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel1" x="2.0" y="29.0" width="776.0"
+             height="490.0" bgColour="16777215" textColour="16777215" itemColour="4280887593"
+             itemColour2="4282729797">
+    <Component type="ScriptPanel" id="Left Panel" x="0.0" y="3.0" parentComponent="Panel1"
+               width="218.0" height="484.0" itemColour="0" itemColour2="0" textColour="1114599279"
+               bgColour="0" borderRadius="2.0">
+      <Component type="ScriptPanel" id="Compression Panel" x="2.0" y="3.0" width="214.0"
+                 height="480.0" textColour="2386509631" itemColour="4281348144"
+                 bgColour="16777215" itemColour2="4280624421" borderSize="1.0"
+                 borderRadius="2.0" parentComponent="Left Panel">
+        <Component type="ScriptLabel" id="Compression label - Threshold" x="24.0"
+                   y="195.0" width="164.0" height="10.0" parentComponent="Compression Panel"
+                   text="THRESHOLD" fontSize="10.0" editable="0" fontStyle="Bold"
+                   fontName="Cabin" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Compression label - Ratio" x="24.0" y="227.0"
+                   width="164.0" height="10.0" parentComponent="Compression Panel"
+                   text="RATIO" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Compression label On Off" x="24.0" y="260.0"
+                   width="164.0" height="10.0" parentComponent="Compression Panel"
+                   text="ACTIVE" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptSlider" id="Compression Threshold" x="30.0" y="211.0"
+                   style="Horizontal" height="8.0" width="152.0" parentComponent="Compression Panel"
+                   bgColour="1030219263" itemColour="4294930241" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" max="0.0" stepSize="0.1000000014901161"
+                   middlePosition="-10.0" showValuePopup="Right" text="" processorId="Compression"
+                   parameterId="CompressorThreshold" mode="Decibel" min="-20.0"
+                   suffix="dB" tooltip="set audio compression threshold "/>
+        <Component type="ScriptPanel" id="Compression Threshold Panel" x="28.0"
+                   y="209.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Compression Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0"/>
+        <Component type="ScriptSlider" id="Compression Ratio" x="30.0" y="243.0"
+                   style="Horizontal" height="8.0" width="152.0" parentComponent="Compression Panel"
+                   bgColour="1030219263" itemColour="4294930241" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="Compression"
+                   parameterId="CompressorRatio" max="5.0" middlePosition="2.5"
+                   min="0.5" showValuePopup="Right" defaultValue="1.0" stepSize="0.1000000014901161"
+                   tooltip="set audio compression ratio"/>
+        <Component type="ScriptPanel" id="Compression Ratio Panel" x="28.0" y="241.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Compression Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0"/>
+        <Component type="ScriptButton" id="Compression On Off" x="170.0" y="275.0"
+                   parentComponent="Compression Panel" width="11.0" height="11.0"
+                   bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Compression" parameterId="CompressorEnabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch audio compression ON or OFF"/>
+        <Component type="ScriptPanel" id="Compression On Off Panel" x="170.0" y="275.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="Compression Panel"
+                   borderRadius="0.0" text="" enabled="0"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="Center Panel" x="216.0" y="5.0" parentComponent="Panel1"
+               width="346.0" height="486.0" itemColour="4281348144" itemColour2="4282137660"
+               textColour="2386509631" bgColour="16777215" borderRadius="2.0">
+      <Component type="ScriptLabel" id="label - Master Volume" x="60.0" y="45.0"
+                 width="224.0" height="10.0" text="MASTER VOLUME" fontSize="10.0"
+                 fontName="Cabin" editable="0" fontStyle="Bold" parentComponent="Center Panel"
+                 alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="label - Master Panorama" x="60.0" y="85.0"
+                 width="224.0" height="10.0" text="PANORAMA" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" tooltip="Master Panorama"
+                 fontName="Cabin" alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="label - Master Image" x="60.0" y="125.0"
+                 width="224.0" height="10.0" text="IMAGE" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" fontName="Cabin"
+                 alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="label - Master Transpose" x="60.0" y="165.0"
+                 width="224.0" height="10.0" text="TRANSPOSE" fontSize="10.0"
+                 editable="0" fontStyle="Bold" parentComponent="Center Panel"
+                 fontName="Cabin" alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="label - midpoint 0" x="60.0" y="75.0"
+                 width="222.0" height="8.0" text="|" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" tooltip="Master Panorama"
+                 fontName="Cabin" visible="0" enabled="0"/>
+      <Component type="ScriptLabel" id="label - midpoint 1" x="60.0" y="111.0"
+                 width="222.0" height="8.0" text="|" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" tooltip="Master Panorama"
+                 fontName="Cabin" enabled="0"/>
+      <Component type="ScriptLabel" id="label - midpoint 2" x="60.0" y="151.0"
+                 width="222.0" height="8.0" text="|" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" tooltip="Master Panorama"
+                 fontName="Cabin" enabled="0"/>
+      <Component type="ScriptLabel" id="label - midpoint 3" x="60.0" y="191.0"
+                 width="222.0" height="8.0" text="|" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Center Panel" tooltip="Master Panorama"
+                 fontName="Cabin" enabled="0"/>
+      <Component type="ScriptSlider" id="Master Volume" x="35.0" y="61.0" style="Horizontal"
+                 height="10.0" width="272.0" bgColour="1030219263" itemColour="4294939904"
+                 itemColour2="1366024274" textColour="16738816" showTextBox="0"
+                 processorId="Volume" parameterId="Gain" mode="Decibel" max="0.0"
+                 stepSize="0.1000000014901161" suffix="dB" middlePosition="-10.0"
+                 defaultValue="-6.0" min="-50.0" showValuePopup="Below" parentComponent="Center Panel"
+                 tooltip="set instrument main volume" isPluginParameter="1" pluginParameterName="Volume"/>
+      <Component type="ScriptPanel" id="Master Volume Panel" x="33.0" y="59.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="276.0" borderRadius="2.0" borderSize="1.0"
+                 parentComponent="Center Panel" enabled="0" locked="1"/>
+      <Component type="ScriptSlider" id="Master Panorama" x="65.0" y="101.0" style="Horizontal"
+                 height="10.0" width="212.0" bgColour="1030219263" itemColour="4294939904"
+                 itemColour2="1366024274" textColour="16738816" showTextBox="0"
+                 processorId="Volume" parameterId="Balance" mode="Pan" max="100.0"
+                 stepSize="1.0" middlePosition="0.0" showValuePopup="Below" parentComponent="Center Panel"
+                 min="-100.0" suffix="L" tooltip="set instrument panorama" isPluginParameter="1"
+                 pluginParameterName="Panorama"/>
+      <Component type="ScriptPanel" id="Master Panorama Panel" x="63.0" y="99.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="216.0" borderRadius="2.0" borderSize="1.0"
+                 parentComponent="Center Panel" enabled="0" locked="1"/>
+      <Component type="ScriptSlider" id="Master Image" x="65.0" y="141.0" style="Horizontal"
+                 height="10.0" width="212.0" bgColour="1030219263" itemColour="4294939904"
+                 itemColour2="1366024274" textColour="16738816" showTextBox="0"
+                 processorId="Image" parameterId="Width" max="200.0" stepSize="1.0"
+                 middlePosition="100.0" showValuePopup="Below" parentComponent="Center Panel"
+                 defaultValue="100.0" tooltip="set stereo image width" pluginParameterName="Image"
+                 isPluginParameter="1"/>
+      <Component type="ScriptPanel" id="Master Image Panel" x="63.0" y="139.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="216.0" borderRadius="2.0" borderSize="1.0"
+                 parentComponent="Center Panel" enabled="0" locked="1"/>
+      <Component type="ScriptSlider" id="Master Transpose" x="65.0" y="181.0"
+                 style="Horizontal" height="10.0" width="212.0" bgColour="1030219263"
+                 itemColour="4294939904" itemColour2="1366024274" textColour="16738816"
+                 showTextBox="0" processorId="Main Transposer" parameterId="TransposeAmount"
+                 max="12.0" stepSize="1.0" middlePosition="0.0" showValuePopup="Below"
+                 parentComponent="Center Panel" min="-12.0" tooltip="transpose +/- 12 semitones"
+                 pluginParameterName="Transpose" isPluginParameter="1"/>
+      <Component type="ScriptPanel" id="Master Transpose Panel" x="63.0" y="179.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="216.0" borderRadius="2.0" borderSize="1.0"
+                 parentComponent="Center Panel" enabled="0" locked="1"/>
+    </Component>
+    <Component type="ScriptPanel" id="Right Panel" x="560.0" y="3.0" parentComponent="Panel1"
+               width="220.0" height="486.0" itemColour="4283585106" itemColour2="4281545523"
+               textColour="1114599279" bgColour="0" borderRadius="2.0">
+      <Component type="ScriptPanel" id="Reverb Panel" x="2.0" y="3.0" width="212.0"
+                 height="479.0" textColour="2386509631" itemColour="4281348144"
+                 bgColour="16777215" itemColour2="4280624421" borderSize="1.0"
+                 borderRadius="2.0" parentComponent="Right Panel">
+        <Component type="ScriptLabel" id="Reverb label - Reverbation" x="26.0" y="74.0"
+                   width="164.0" height="10.0" parentComponent="Reverb Panel" text="REVERBATION"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Reverb label - Reflection" x="26.0" y="114.0"
+                   width="164.0" height="10.0" parentComponent="Reverb Panel" text="REFLECTION"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Reverb label - Send" x="26.0" y="146.0"
+                   width="164.0" height="10.0" parentComponent="Reverb Panel" text="SEND"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Reverb label - Low Cut On Off" x="98.0"
+                   y="179.0" width="50.0" height="10.0" parentComponent="Reverb Panel"
+                   text="LOW CUT" fontSize="10.0" editable="0" fontStyle="Bold"
+                   fontName="Cabin" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Reverb label - On Off" x="139.0" y="179.0"
+                   width="50.0" height="10.0" parentComponent="Reverb Panel" text="ACTIVE"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Strings Resonance label - Tittle" x="26.0"
+                   y="233.0" width="164.0" height="10.0" parentComponent="Reverb Panel"
+                   text="RESONANCE" fontSize="10.0" editable="0" fontStyle="Bold"
+                   fontName="Cabin" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Strings Resonance label - Intensity" x="26.0"
+                   y="273.0" width="164.0" height="10.0" parentComponent="Reverb Panel"
+                   text="INTENSITY" fontSize="10.0" editable="0" fontStyle="Bold"
+                   fontName="Cabin" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="String Resonance label - On Off" x="139.0"
+                   y="306.0" width="50.0" height="10.0" parentComponent="Reverb Panel"
+                   text="ACTIVE" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Pedal Sounds label" x="26.0" y="361.0"
+                   width="164.0" height="10.0" parentComponent="Reverb Panel" text="PEDAL SOUNDS"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="Pedal Sounds - On Off" x="139.0" y="394.0"
+                   width="50.0" height="10.0" parentComponent="Reverb Panel" text="ACTIVE"
+                   fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptComboBox" id="Impulse" x="28.0" y="89.0" parentComponent="Reverb Panel"
+                   height="17.0" width="156.0" bgColour="1399971211" itemColour="1030219263"
+                   text="Load Reverb Type" tooltip="set reverb type " items="Hall 1&#10;Hall 2&#10;Hall 3&#10;Plate 1&#10;Plate 2&#10;Spring&#10;Studio A&#10;Studio B"
+                   max="8" textColour="4284408831" fontName="Cabin"/>
+        <Component type="ScriptPanel" id="Reverb Impulse Panel" x="26.0" y="87.0"
+                   bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="160.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="Reverb Reflection" x="30.0" y="130.0"
+                   style="Horizontal" height="8.0" width="152.0" parentComponent="Reverb Panel"
+                   bgColour="1030219263" itemColour="4283083007" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="Convolution"
+                   parameterId="Predelay" showValuePopup="Left" mode="Time" suffix=" ms"
+                   max="200.0" tooltip="set reverb reflection distance" defaultValue="50.0"/>
+        <Component type="ScriptPanel" id="Reverb Reflection Panel" x="28.0" y="128.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="Reverb Send" x="30.0" y="162.0" style="Horizontal"
+                   height="8.0" width="152.0" parentComponent="Reverb Panel" bgColour="1030219263"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   showTextBox="0" processorId="Send FX Reverb" parameterId="Gain"
+                   mode="Decibel" middlePosition="-35.0" suffix=" dB" min="-50.0"
+                   max="-20.0" stepSize="0.1000000014901161" tooltip="set reverb DRY/WET amount"
+                   defaultValue="-35.0"/>
+        <Component type="ScriptPanel" id="Reveb Send Panel" x="28.0" y="160.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="Reverb Low Cut On Off" x="131.0" y="193.0"
+                   parentComponent="Reverb Panel" width="11.0" height="11.0" bgColour="545404384"
+                   itemColour="3355443" itemColour2="1118481" textColour="16777215"
+                   text="" scaleFactor="0.1000000014901161" processorId="Low Cut"
+                   parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch low cut filtering on reverb ON or OFF"/>
+        <Component type="ScriptPanel" id="Reverb Low Cut On Off Panel" x="131.0"
+                   y="193.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="Reverb Panel" borderRadius="0.0" text="" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptButton" id="Reverb Send On Off" x="171.0" y="193.0"
+                   parentComponent="Reverb Panel" width="11.0" height="11.0" bgColour="0"
+                   itemColour="0" itemColour2="0" textColour="0" text="" scaleFactor="0.1000000014901161"
+                   processorId="Convolution" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch reverb unit ON or OFF"/>
+        <Component type="ScriptPanel" id="Reverb On Off Panel" x="171.0" y="193.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="Reverb Panel"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptComboBox" id="Impulse1" x="28.0" y="248.0" parentComponent="Reverb Panel"
+                   height="17.0" width="156.0" bgColour="1399971211" itemColour="1030219263"
+                   textColour="4284408831" text="Load Reverb Type" tooltip="set convolution string resonance model"
+                   items="Resonance model 1&#10;Resonance model 2&#10;Resonance model 3"
+                   max="3" fontName="Cabin"/>
+        <Component type="ScriptPanel" id="String Resonance Panel" x="26.0" y="246.0"
+                   bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="160.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="String Resonance amount" x="30.0" y="289.0"
+                   style="Horizontal" height="8.0" width="152.0" parentComponent="Reverb Panel"
+                   bgColour="1030219263" itemColour="4283083007" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="Resonance"
+                   parameterId="WetGain" mode="Decibel" middlePosition="-18.5" suffix=" dB"
+                   min="-25.0" max="-10.0" stepSize="0.1000000014901161" tooltip="set convolution string resonance intensity"
+                   defaultValue="-18.5" text=""/>
+        <Component type="ScriptPanel" id="Strings Resonance Amount Panel" x="28.0"
+                   y="287.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="String Resonance On Off" x="171.0" y="320.0"
+                   parentComponent="Reverb Panel" width="11.0" height="11.0" bgColour="0"
+                   itemColour="0" itemColour2="0" textColour="0" text="" scaleFactor="0.1000000014901161"
+                   processorId="Resonance" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch convolution string resonance ON or OFF" defaultValue="1.0"/>
+        <Component type="ScriptPanel" id="String Resonance On Off Panel" x="171.0"
+                   y="320.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="Reverb Panel" borderRadius="0.0" text="" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptSlider" id="Pedal Sounds " x="30.0" y="377.0" style="Horizontal"
+                   height="8.0" width="152.0" parentComponent="Reverb Panel" bgColour="1030219263"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   showTextBox="0" processorId="PedalSoundsGain" parameterId="Gain"
+                   mode="Decibel" middlePosition="-6.0" suffix=" dB" min="-20.0"
+                   max="4.0" stepSize="0.1000000014901161" tooltip="set volume of pedal sounds"
+                   defaultValue="-4.5" text=""/>
+        <Component type="ScriptPanel" id="Pedal Sounds" x="28.0" y="375.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="156.0" parentComponent="Reverb Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="Pedal Sounds On Off " x="171.0" y="408.0"
+                   parentComponent="Reverb Panel" width="11.0" height="11.0" bgColour="0"
+                   itemColour="0" itemColour2="0" textColour="0" text="" scaleFactor="0.1000000014901161"
+                   processorId="Pedal Sounds" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch pedal sounds On or OFF" defaultValue="1.0"/>
+        <Component type="ScriptPanel" id="Pedal Sounds On Off Panel" x="171.0" y="408.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="Reverb Panel"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="Global Filter Panel" x="217.0" y="237.0"
+               width="344.0" height="249.0" textColour="2386509631" itemColour="4282137660"
+               bgColour="16777215" itemColour2="4280624421" borderSize="1.0"
+               borderRadius="3.0" parentComponent="Panel1">
+      <Component type="ScriptLabel" id="GFilter label - Frequency" x="133.0" y="36.0"
+                 width="193.0" height="10.0" parentComponent="Global Filter Panel"
+                 text="FREQUENCY" fontSize="10.0" editable="0" fontStyle="Bold"
+                 fontName="Cabin" alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="GFilter label - Q1" x="133.0" y="84.0"
+                 width="193.0" height="10.0" parentComponent="Global Filter Panel"
+                 text="RESONANCE" fontSize="10.0" editable="0" fontStyle="Bold"
+                 fontName="Cabin" alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="GFilter label - gain" x="133.0" y="132.0"
+                 width="193.0" height="10.0" parentComponent="Global Filter Panel"
+                 text="GAIN" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                 alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="GFilter label - Filter On Off" x="58.0"
+                 y="132.0" width="63.0" height="10.0" parentComponent="Global Filter Panel"
+                 text="ACTIVE" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                 alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="GFilter label - Filter Type" x="19.0"
+                 y="36.0" width="103.0" height="10.0" parentComponent="Global Filter Panel"
+                 text="MODE" fontSize="10.0" editable="0" fontStyle="Bold" fontName="Cabin"
+                 alignment="right" enabled="0"/>
+      <Component type="ScriptLabel" id="label - midpoint 4" x="133.0" y="157.0"
+                 width="190.0" height="8.0" text="|" fontSize="10.0" editable="0"
+                 fontStyle="Bold" parentComponent="Global Filter Panel" tooltip="Master Panorama"
+                 fontName="Cabin" enabled="0"/>
+      <Component type="ScriptButton" id="GFilter label On Off" x="102.0" y="148.0"
+                 parentComponent="Global Filter Panel" width="11.0" height="11.0"
+                 bgColour="0" itemColour="0" itemColour2="0" textColour="0" text=""
+                 scaleFactor="0.1000000014901161" processorId="Global Filter"
+                 parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                 tooltip="switch global filter ON or OFF"/>
+      <Component type="ScriptPanel" id="GFilter label On Off Panel" x="102.0"
+                 y="148.0" bgColour="0" textColour="1737198475" height="10.0"
+                 itemColour="1317585351" itemColour2="503289088" width="10.0"
+                 parentComponent="Global Filter Panel" borderRadius="0.0" text="Filter on/off"
+                 tooltip="Switch Main Filter On/Off" enabled="0" locked="1"/>
+      <Component type="ScriptComboBox" id="G1FilterType" x="21.0" y="51.0" parentComponent="Global Filter Panel"
+                 height="17.0" width="96.0" bgColour="1399971211" itemColour="866068153"
+                 tooltip="set global filter type" itemColour2="4279242768" fontName="Cabin"
+                 textColour="4293705215" items="&#10;SV lowpass&#10;SV highpass&#10;B4 lowpass&#10;B4 highpass&#10;Rez lowpass&#10;4P ladder&#10;Allpass&#10;Ring mod.&#10;Low shelf&#10;High shelf&#10;Peak EQ"
+                 max="11"/>
+      <Component type="ScriptPanel" id="GFilter label Type Panel" x="19.0" y="49.0"
+                 bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                 itemColour2="714956822" width="100.0" parentComponent="Global Filter Panel"
+                 borderRadius="2.0" borderSize="1.0" enabled="0"/>
+      <Component type="ScriptFloatingTile" id="GFilter label Display" x="22.0"
+                 y="77.0" width="94.0" height="44.0" parentComponent="Global Filter Panel"
+                 bgColour="4281545523" itemColour="4294946816" itemColour2="16777215"
+                 ContentType="FilterDisplay" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Global Filter&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;GainRange&quot;: 24.0,&#10;  &quot;ShowLines&quot;: false&#10;}"
+                 updateAfterInit="0" locked="1"/>
+      <Component type="ScriptPanel" id="GFilter Display Panel" x="19.0" y="74.0"
+                 bgColour="0" textColour="429948002" height="50.0" itemColour="1308622848"
+                 itemColour2="717167238" width="100.0" parentComponent="Global Filter Panel"
+                 borderRadius="2.0" borderSize="1.0" enabled="0">
+        <Component type="ScriptLabel" id="gfx - glasscover1" x="2.0" y="2.0" width="96.0"
+                   height="45.0" parentComponent="GFilter Display Panel" textColour="16777215"
+                   itemColour="1399971211"/>
+      </Component>
+      <Component type="ScriptSlider" id="Global Filter Frequency" x="137.0" y="52.0"
+                 style="Horizontal" height="10.0" width="182.0" parentComponent="Global Filter Panel"
+                 bgColour="1030219263" itemColour="4291777535" itemColour2="1366024274"
+                 textColour="16738816" showTextBox="0" mode="Frequency" min="20.0"
+                 max="20000.0" stepSize="1.0" suffix=" Hz" middlePosition="1500.0"
+                 processorId="Global Filter" parameterId="Frequency" showValuePopup="Above"
+                 isPluginParameter="1" pluginParameterName="Global filter frequency"
+                 tooltip="set global filter frequency" defaultValue="20000.0"/>
+      <Component type="ScriptPanel" id="GFilter Frequency Panel" x="135.0" y="50.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="186.0" parentComponent="Global Filter Panel"
+                 borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+      <Component type="ScriptSlider" id="Global Filter Resonance" x="137.0" y="100.0"
+                 style="Horizontal" height="10.0" width="182.0" parentComponent="Global Filter Panel"
+                 bgColour="1030219263" itemColour="4291777535" itemColour2="1366024274"
+                 textColour="16738816" showTextBox="0" processorId="Global Filter"
+                 parameterId="Q" min="0.300000011920929" max="8.0" middlePosition="1.0"
+                 showValuePopup="Above" tooltip="set global filter resonance"
+                 defaultValue="0.300000011920929" isPluginParameter="1" pluginParameterName="Global filter resonance"/>
+      <Component type="ScriptPanel" id="Global Filter  Resonance Panel" x="135.0"
+                 y="98.0" bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="186.0" parentComponent="Global Filter Panel"
+                 borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+      <Component type="ScriptSlider" id="Global Filter Gain" x="137.0" y="148.0"
+                 style="Horizontal" height="10.0" width="182.0" parentComponent="Global Filter Panel"
+                 bgColour="1030219263" itemColour="4291777535" itemColour2="1366024274"
+                 textColour="16738816" showTextBox="0" processorId="Global Filter"
+                 parameterId="Gain" middlePosition="0.0" max="6.0" showValuePopup="Above"
+                 tooltip="set global filter gain (Shelf and EQ filters only)"
+                 mode="Decibel" min="-6.0" isPluginParameter="1" pluginParameterName="Global filter gain"/>
+      <Component type="ScriptPanel" id="Global Filter Bias Panel" x="135.0" y="146.0"
+                 bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                 itemColour2="714956822" width="186.0" parentComponent="Global Filter Panel"
+                 borderRadius="2.0" borderSize="1.0" text="E1 Filter Bias" enabled="0"
+                 locked="1"/>
+    </Component>
+    <Component type="ScriptPanel" id="gfx - 3D line 6" x="216.0" y="239.0" height="6.0"
+               width="345.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4282335039"
+               textColour="4342338" bgColour="9145227" borderSize="1.0" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="gfx - line 7" x="3.0" y="465.0" width="212.0"
+               height="2.0" bgColour="553631041" text="gfx - line 1" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="gfx - line 8" x="563.0" y="465.0" width="210.0"
+               height="2.0" bgColour="553631041" text="gfx - line 1" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="gfx - line 11" x="219.0" y="465.0" width="340.0"
+               height="2.0" bgColour="553631041" text="gfx - line 1" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Tittle Label - Compression " x="0.0" y="466.0"
+               width="218.0" height="12.0" enabled="0" text="COMPRESSION" fontStyle="Black"
+               editable="0" fontName="League Gothic" fontSize="17.0" itemColour2="1118481"
+               itemColour="16777215" textColour="4293242182" parentComponent="Panel1"/>
+    <Component type="ScriptLabel" id="Tittle Label - ACOUSTICS" x="560.0" y="466.0"
+               width="218.0" height="12.0" text="ACOUSTICS" fontStyle="Black"
+               editable="0" fontName="League Gothic" fontSize="17.0" itemColour2="1118481"
+               itemColour="16777215" textColour="4293242182" parentComponent="Panel1"
+               enabled="0"/>
+    <Component type="ScriptLabel" id="Tittle Label - Filter" x="216.0" y="466.0"
+               width="346.0" height="12.0" text="FILTER" fontStyle="Bold" editable="0"
+               fontName="League Gothic" fontSize="17.0" itemColour2="1118481"
+               itemColour="16777215" textColour="4293242182" parentComponent="Panel1"
+               enabled="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel2" x="2.0" y="29.0" width="778.0"
+             height="490.0" bgColour="0" itemColour="0" itemColour2="0" textColour="0"
+             visible="0">
+    <Component type="ScriptPanel" id="E1 Panel" x="0.0" y="4.0" height="160.0"
+               width="776.0" itemColour2="4281545523" itemColour="4282532418"
+               textColour="1114599279" bgColour="16777215" borderRadius="2.0"
+               parentComponent="Panel2" text="*">
+      <Component type="ScriptLabel" id="gfx - line 1" x="6.0" y="14.0" width="766.0"
+                 height="2.0" parentComponent="E1 Panel" bgColour="553631041"/>
+      <Component type="ScriptLabel" id="E1 Tittle Label - SAMPLE" x="4.0" y="3.0"
+                 width="132.0" height="12.0" parentComponent="E1 Panel" enabled="0"
+                 text="SAMPLE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 itemColour2="1118481" itemColour="16777215" textColour="4293242182"
+                 fontSize="16.0"/>
+      <Component type="ScriptLabel" id="E1 Tittle Label - GAIN" x="270.0" y="3.0"
+                 width="132.0" height="12.0" parentComponent="E1 Panel" enabled="0"
+                 text="GAIN" fontStyle="Black" editable="0" fontName="League Gothic"
+                 itemColour2="1118481" itemColour="16777215" textColour="4293242182"
+                 fontSize="16.0"/>
+      <Component type="ScriptLabel" id="E1 Tittle Label - VOICE" x="137.0" y="3.0"
+                 width="132.0" height="12.0" parentComponent="E1 Panel" enabled="0"
+                 text="VOICE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 itemColour2="1118481" itemColour="16777215" textColour="4293242182"
+                 fontSize="16.0"/>
+      <Component type="ScriptLabel" id="E1 Tittle Label - FILTER" x="403.0" y="3.0"
+                 width="370.0" height="12.0" parentComponent="E1 Panel" enabled="0"
+                 text="FILTER" fontStyle="Black" editable="0" fontName="League Gothic"
+                 itemColour2="1118481" itemColour="16777215" textColour="4293242182"
+                 fontSize="16.0"/>
+      <Component type="ScriptPanel" id="E1 SampleStart Panel" x="4.0" y="16.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E1 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E1 label - Samplemap" x="6.0" y="2.0"
+                   width="123.0" height="10.0" parentComponent="E1 SampleStart Panel"
+                   text="ELEMENT 1" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Position" x="6.0" y="44.0"
+                   width="120.0" height="10.0" parentComponent="E1 SampleStart Panel"
+                   text="SAMPLESTART" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Random" x="6.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E1 SampleStart Panel" text="RANDOM"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Velocity" x="6.0" y="96.0"
+                   width="120.0" height="10.0" parentComponent="E1 SampleStart Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptComboBox" id="E1SampleMap" x="8.0" y="14.0" max="11"
+                   parentComponent="E1 SampleStart Panel" height="17.0" width="116.0"
+                   bgColour="1399971211" itemColour="1030219263" textColour="4289200011"
+                   text="" items="Piano 1&#10;Piano 1 ff&#10;Piano 1 mf&#10;Piano 1 noises&#10;Piano 1 release&#10;Piano 2&#10;Piano 2 ff&#10;Piano 2 mf&#10;Piano 2 noises&#10;Piano 2 release&#10;__________"
+                   tooltip="set element 1 samplemap" fontName="Cabin"/>
+        <Component type="ScriptPanel" id="E1 SampleMap Panel" x="6.0" y="12.0" bgColour="0"
+                   textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="120.0" parentComponent="E1 SampleStart Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 SampleStart Position" x="10.0" y="57.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 SampleStart Panel"
+                   bgColour="1030219263" itemColour="4281850974" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Samplestart Modulator "
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set samplestart point | slider full right = 0"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 SampleStart Position Panel" x="8.0"
+                   y="55.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E1 SampleStart Random" x="10.0" y="83.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 SampleStart Panel"
+                   bgColour="1030219263" itemColour="4281850974" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Samplestart Random Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set randomize intensity of samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 SampleStart Random Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E1 SampleStart Velocity" x="10.0" y="109.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 SampleStart Panel"
+                   bgColour="1030219263" itemColour="4281850974" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Samplestart Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set intensity of velocity samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 SampleStart Velocity Panel" x="8.0"
+                   y="107.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+      </Component>
+      <Component type="ScriptPanel" id="E1 Voice" x="137.0" y="16.0" width="132.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E1 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E1 label - Mono" x="86.0" y="14.0" width="43.0"
+                   height="10.0" parentComponent="E1 Voice" text="MONO" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Volume" x="7.0" y="44.0" width="120.0"
+                   height="10.0" parentComponent="E1 Voice" text="VOLUME" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - On Off" x="50.0" y="8.0" width="30.0"
+                   height="10.0" parentComponent="E1 Voice" text="ON" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Transpose" x="7.0" y="70.0"
+                   width="120.0" height="10.0" parentComponent="E1 Voice" text="TRANSPOSE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" visible="0"/>
+        <Component type="ScriptLabel" id="E1 label - SHIFT" x="7.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E1 Voice" text="SHIFT" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptSlider" id="E1 Volume" x="10.0" y="57.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E1 Voice" bgColour="1030219263"
+                   itemColour="4294924119" itemColour2="1248583762" textColour="16738816"
+                   showTextBox="0" processorId="E1 Gain" parameterId="Gain" mode="Decibel"
+                   min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+                   middlePosition="-18.0" defaultValue="-3.0" showValuePopup="Below"
+                   tooltip="set element 1 volume" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Volume Panel" x="8.0" y="55.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E1 On Off" x="60.0" y="22.0" parentComponent="E1 Voice"
+                   width="11.0" height="11.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 1" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 1 on/off" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 On Off Panel" x="60.0" y="22.0" bgColour="0"
+                   textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E1 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E1 Force Mono" x="113.0" y="28.0" parentComponent="E1 Voice"
+                   width="10.0" height="10.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 1" parameterId="ForceMono" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 1 force mono output" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Force Mono Panel" x="113.0" y="28.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E1 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1Transposer" x="10.0" y="83.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E1 Voice" bgColour="1030219263"
+                   itemColour="4283083007" itemColour2="1248583762" textColour="16738816"
+                   showTextBox="0" min="-12.0" max="12.0" stepSize="1.0" showValuePopup="Below"
+                   tooltip="set element 1 transpose &#177;12 semitones" middlePosition="0.0"
+                   enabled="0" visible="0"/>
+        <Component type="ScriptPanel" id="E1 Transpose Panel" x="7.0" y="80.0" bgColour="0"
+                   textColour="580942946" height="14.0" itemColour="2499805184"
+                   itemColour2="714956822" width="118.0" parentComponent="E1 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1" visible="0"/>
+        <Component type="ScriptSlider" id="E1_PitchShift" x="10.0" y="83.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E1 Voice" bgColour="1030219263"
+                   itemColour="4283083007" itemColour2="1248583762" textColour="16738816"
+                   min="-12.0" showTextBox="0" showValuePopup="Below" middlePosition="0.0"
+                   tooltip="shift element 1 samplemap &#177; 12 semitones" stepSize="1.0"
+                   max="12.0"/>
+        <Component type="ScriptPanel" id="E1 Pitch Shift Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+      </Component>
+      <Component type="ScriptPanel" id="E1 Envelope Panel" x="270.0" y="16.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E1 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 34" x="96.0" y="122.0" width="16.0"
+                   height="1.0" parentComponent="E1 Envelope Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="E1 label - attack" x="6.0" y="2.0" width="120.0"
+                   height="10.0" parentComponent="E1 Envelope Panel" text="ATTACK"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - attack1" x="6.0" y="28.0" width="120.0"
+                   height="10.0" parentComponent="E1 Envelope Panel" text="HOLD"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - decay" x="6.0" y="54.0" width="120.0"
+                   height="10.0" parentComponent="E1 Envelope Panel" text="DECAY"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - release" x="6.0" y="80.0" width="120.0"
+                   height="10.0" parentComponent="E1 Envelope Panel" text="RELEASE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Velocity Gain" x="6.0" y="106.0"
+                   width="94.0" height="10.0" parentComponent="E1 Envelope Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Velocity Exponentional" x="99.0"
+                   y="106.0" width="30.0" height="10.0" parentComponent="E1 Envelope Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptSlider" id="E1 Envelope Attack" x="10.0" y="15.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Envelope Panel"
+                   bgColour="1030219263" itemColour="4294939904" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Gain Envelope"
+                   parameterId="Attack" mode="Time" max="1000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="250.0" defaultValue="1.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope attack time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Envelope Attack Panel" x="8.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Envelope Release1" x="10.0" y="41.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Envelope Panel"
+                   bgColour="1030219263" itemColour="4294939904" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Gain Envelope"
+                   parameterId="Hold" mode="Time" max="30000.0" stepSize="1.0" suffix=" ms"
+                   middlePosition="5000.0" showValuePopup="Below" tooltip="set gain envelope hold time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Envelope Gold Panel" x="8.0" y="39.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Envelope Decay" x="10.0" y="67.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Envelope Panel"
+                   bgColour="1030219263" itemColour="4294939904" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Gain Envelope"
+                   parameterId="Decay" mode="Time" max="60000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="10000.0" min="1.0" showValuePopup="Below"
+                   tooltip="set gain envelope decay time" defaultValue="60000.0"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Envelope Decay Panel" x="8.0" y="65.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Envelope Release" x="10.0" y="93.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Envelope Panel"
+                   bgColour="1030219263" itemColour="4294939904" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Gain Envelope"
+                   parameterId="Release" defaultValue="1000.0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="5000.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope release time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Envelope Release Panel" x="8.0" y="91.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Velocity" x="10.0" y="119.0" style="Horizontal"
+                   height="8.0" width="86.0" parentComponent="E1 Envelope Panel"
+                   bgColour="1030219263" itemColour="4294939904" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Gain Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set gain velocity range "
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Velocity Panel" x="8.0" y="117.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E1 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E1 Velocity Exponential On Off" x="110.0"
+                   y="118.0" parentComponent="E1 Envelope Panel" width="10.0" height="10.0"
+                   bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E1 Gain Velocity Modulator" parameterId="UseTable"
+                   filmstripImage="{PROJECT_FOLDER}Keys Button 3.png" tooltip="switch gain exponential velocity ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Velocity Exponential Mode Panel" x="110.0"
+                   y="118.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E1 Envelope Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1" borderSize="2.5"/>
+      </Component>
+      <Component type="ScriptPanel" id="E1 Filter Panel" x="403.0" y="16.0" width="370.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E1 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 20" x="232.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E1 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 21" x="209.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E1 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 22" x="209.0" y="96.0" width="12.0"
+                   height="1.0" parentComponent="E1 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 23" x="104.0" y="96.0" width="18.0"
+                   height="1.0" parentComponent="E1 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter On Off" x="6.0" y="6.0"
+                   width="103.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="ACTIVE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Type" x="6.0" y="41.0"
+                   width="100.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="MODE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Frequency" x="6.0" y="80.0"
+                   width="100.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="FREQUENCY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Q" x="6.0" y="106.0" width="100.0"
+                   height="10.0" parentComponent="E1 Filter Panel" text="RESONANCE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Envelope" x="241.0"
+                   y="2.0" width="120.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="ENVELOPE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Envelope Attack" x="241.0"
+                   y="28.0" width="120.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="ATTACK" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Envelope Decay" x="241.0"
+                   y="54.0" width="120.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="DECAY" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Envelope Sustain" x="241.0"
+                   y="80.0" width="120.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="SUSTAIN" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Envelope Release" x="241.0"
+                   y="106.0" width="120.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="RELEASE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Bias" x="119.0" y="28.0" width="94.0"
+                   height="10.0" parentComponent="E1 Filter Panel" text="VELOCITY"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Velocity Exponentional1"
+                   x="211.0" y="28.0" width="30.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Velocity" x="119.0"
+                   y="80.0" width="94.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E1 label - Filter Velocity Exponentional"
+                   x="211.0" y="80.0" width="30.0" height="10.0" parentComponent="E1 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptButton" id="E1 Filter On Off" x="88.0" y="21.0" parentComponent="E1 Filter Panel"
+                   width="11.0" height="11.0" bgColour="16777215" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E1 Filter" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch filter ON or OFF" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter On Off Panel" x="88.0" y="21.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E1 Filter Panel"
+                   borderRadius="0.0" text="E1 Filter on/off" enabled="0" locked="1"/>
+        <Component type="ScriptComboBox" id="E1FilterType" x="8.0" y="54.0" parentComponent="E1 Filter Panel"
+                   height="17.0" width="96.0" bgColour="1399971211" itemColour="866068153"
+                   tooltip="set filter type" fontName="Cabin" textColour="4294690303"
+                   items="&#10;1P lowpass&#10;1P highpass&#10;SV lowpass&#10;SV highpass&#10;B4 lowpass&#10;B4 highpass&#10;Rez lowpass&#10;4P ladder&#10;Allpass"
+                   max="9"/>
+        <Component type="ScriptPanel" id="E1 Filter Type Panel" x="6.0" y="52.0"
+                   bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="100.0" parentComponent="E1 Filter Panel"
+                   borderRadius="1.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptFloatingTile" id="E1 Filter Display" x="9.0" y="8.0"
+                   width="60.0" height="30.0" parentComponent="E1 Filter Panel"
+                   bgColour="4281545523" itemColour="4294946816" itemColour2="16777215"
+                   ContentType="FilterDisplay" Data="{&#10;  &quot;ProcessorId&quot;: &quot;E1 Filter&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;GainRange&quot;: 24.0,&#10;  &quot;ShowLines&quot;: false&#10;}"/>
+        <Component type="ScriptPanel" id="E1 Filter Display Panel" x="6.0" y="6.0"
+                   bgColour="0" textColour="580942946" height="34.0" itemColour="2499805184"
+                   itemColour2="1116083869" width="64.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1">
+          <Component type="ScriptLabel" id="gfx - glasscover2" x="2.0" y="2.0" width="60.0"
+                     height="30.0" parentComponent="E1 Filter Display Panel" textColour="16777215"
+                     itemColour="1399971211" text="gfx - glasscover1" enabled="0"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptSlider" id="E1 Filter Frequency" x="9.0" y="93.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Frequency" min="20.0"
+                   max="20000.0" stepSize="1.0" suffix=" Hz" middlePosition="1500.0"
+                   processorId="E1 Filter" parameterId="Frequency" showValuePopup="Below"
+                   tooltip="set filter frequency" defaultValue="20000.0" isPluginParameter="1"
+                   pluginParameterName="Element 1 - Filter Frequency"/>
+        <Component type="ScriptPanel" id="E1 Filter Frequency Panel" x="7.0" y="91.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Resonance" x="9.0" y="119.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Filter"
+                   parameterId="Q" min="0.300000011920929" max="8.0" middlePosition="1.0"
+                   showValuePopup="Below" tooltip="set filter resonance" defaultValue="0.300000011920929"
+                   isPluginParameter="1" pluginParameterName="Element 1 - Filter Resonance"/>
+        <Component type="ScriptPanel" id="E1 Filter Resonance Panel" x="7.0" y="117.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Intensity" x="245.0"
+                   y="15.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Filter Envelope"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter envelope intensity"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Panel" x="243.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Attack" x="245.0"
+                   y="41.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="1000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="250.0" processorId="E1 Filter Envelope"
+                   parameterId="Attack" min="1.0" showValuePopup="Below" tooltip="set filter envelope attack time"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Attack Panel" x="243.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Velocity Attack" x="122.0"
+                   y="41.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Filter Attack Level"
+                   parameterId="Intensity" middlePosition="0.5" showValuePopup="Below"
+                   tooltip="set filter envelope velocity attack intensity" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Velocity Attack Panel" x="120.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="E1 Filter Bias" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptButton" id="E1 Filter Exponential Velocity On Off1"
+                   x="222.0" y="40.0" parentComponent="E1 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E1 Filter Attack Level" parameterId="UseTable" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="set filter env. attack velocity exponentional ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Exponential Velocity Panel1"
+                   x="222.0" y="40.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E1 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Decay" x="245.0" y="67.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" processorId="E1 Filter Envelope"
+                   parameterId="Decay" middlePosition="10000.0" showValuePopup="Below"
+                   tooltip="set filter envelope decay time" text="" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Decay Panel" x="243.0"
+                   y="65.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Sustain" x="245.0"
+                   y="93.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Decibel" max="-12.0"
+                   processorId="E1 Filter Envelope" parameterId="Sustain" middlePosition="-20.0"
+                   showValuePopup="Below" tooltip="set filter envelope sustain level"
+                   min="-100.0" defaultValue="-100.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Sustain Panel" x="243.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Release" x="245.0"
+                   y="119.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Filter Envelope"
+                   parameterId="Release" mode="Time" max="20000.0" stepSize="1.0"
+                   suffix=" ms" min="0.1000000014901161" middlePosition="5000.0"
+                   showValuePopup="Below" tooltip="set filter envelope release time"
+                   defaultValue="1000.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Release Panel" x="243.0"
+                   y="117.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E1 Filter Envelope Velocity" x="122.0"
+                   y="93.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E1 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E1 Filter Frequency Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter frequency velocity intensity"
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Envelope Velocity Panel" x="120.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E1 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E1 Filter Exponential Velocity On Off"
+                   x="222.0" y="92.0" parentComponent="E1 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E1 Filter Frequency Velocity Modulator" parameterId="UseTable"
+                   filmstripImage="{PROJECT_FOLDER}Keys Button 3.png" tooltip="set filter exponential velocity ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E1 Filter Exponential Velocity Panel"
+                   x="222.0" y="92.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E1 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="E2 Panel" x="0.0" y="166.0" height="160.0"
+               width="776.0" itemColour2="4281545523" itemColour="4282532418"
+               textColour="1114599279" bgColour="16777215" borderRadius="2.0"
+               parentComponent="Panel2" text="*">
+      <Component type="ScriptLabel" id="gfx - line 3" x="6.0" y="13.0" width="766.0"
+                 height="2.0" parentComponent="E2 Panel" bgColour="553631041"/>
+      <Component type="ScriptLabel" id="E2 Tittle Label - SAMPLE" x="4.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E2 Panel" enabled="0"
+                 text="SAMPLE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E2 Tittle Label - GAIN" x="270.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E2 Panel" enabled="0"
+                 text="GAIN" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E2 Tittle Label - VOICE" x="137.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E2 Panel" enabled="0"
+                 text="VOICE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E2 Tittle Label - FILTER" x="403.0" y="2.0"
+                 width="370.0" height="12.0" parentComponent="E2 Panel" enabled="0"
+                 text="FILTER" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptPanel" id="E2 SampleStart Panel" x="4.0" y="17.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E2 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E2 label - Samplemap" x="6.0" y="2.0"
+                   width="123.0" height="10.0" parentComponent="E2 SampleStart Panel"
+                   text="ELEMENT 2" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Position" x="6.0" y="44.0"
+                   width="120.0" height="10.0" parentComponent="E2 SampleStart Panel"
+                   text="SAMPLESTART" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Random" x="6.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E2 SampleStart Panel" text="RANDOM"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Velocity" x="6.0" y="96.0"
+                   width="120.0" height="10.0" parentComponent="E2 SampleStart Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptComboBox" id="E2SampleMap" x="8.0" y="14.0" max="11"
+                   parentComponent="E2 SampleStart Panel" height="17.0" width="116.0"
+                   bgColour="1399971211" itemColour="1030219263" textColour="4289200011"
+                   text="" items="Piano 1&#10;Piano 1 ff&#10;Piano 1 mf&#10;Piano 1 noises&#10;Piano 1 release&#10;Piano 2&#10;Piano 2 ff&#10;Piano 2 mf&#10;Piano 2 noises&#10;Piano 2 release&#10;__________"
+                   tooltip="set element 2 samplemap" fontName="Cabin"/>
+        <Component type="ScriptPanel" id="E2 SampleMap Panel" x="6.0" y="12.0" bgColour="0"
+                   textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="120.0" parentComponent="E2 SampleStart Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 SampleStart Position" x="10.0" y="57.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Samplestart Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set samplestart point | slider full right = 0"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 SampleStart Position Panel" x="8.0"
+                   y="55.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E2 SampleStart Random" x="10.0" y="83.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Samplestart Random Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set randomize intensity of samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 SampleStart Random Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E2 SampleStart Velocity" x="10.0" y="109.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Samplestart Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set intensity of velocity samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 SampleStart Velocity Panel" x="8.0"
+                   y="107.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+      </Component>
+      <Component type="ScriptPanel" id="E2 Voice" x="137.0" y="17.0" width="132.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E2 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E2 label - Mono" x="86.0" y="14.0" width="43.0"
+                   height="10.0" parentComponent="E2 Voice" text="MONO" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Release Trigger On Off" x="20.0"
+                   y="104.0" width="90.0" height="10.0" parentComponent="E2 Voice"
+                   text="RELEASE TRIGGER" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Volume" x="7.0" y="44.0" width="120.0"
+                   height="10.0" parentComponent="E2 Voice" text="VOLUME" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - On Off" x="50.0" y="8.0" width="30.0"
+                   height="10.0" parentComponent="E2 Voice" text="ON" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Transpose" x="7.0" y="70.0"
+                   width="120.0" height="10.0" parentComponent="E2 Voice" text="TRANSPOSE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" visible="0"/>
+        <Component type="ScriptLabel" id="E2 label - Shift" x="7.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E2 Voice" text="SHIFT" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptSlider" id="E2 Volume" x="10.0" y="57.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E2 Voice" bgColour="828892671"
+                   itemColour="4294924119" itemColour2="1366024274" textColour="16738816"
+                   showTextBox="0" processorId="E2 Gain" parameterId="Gain" mode="Decibel"
+                   min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+                   middlePosition="-18.0" defaultValue="-3.0" showValuePopup="Below"
+                   tooltip="set element 2 volume" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Volume Panel" x="8.0" y="55.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E2 On Off" x="60.0" y="23.0" parentComponent="E2 Voice"
+                   width="10.0" height="10.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 2" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 2 on/off" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 On Off Panel" x="60.0" y="22.0" bgColour="0"
+                   textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E2 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E2 Force Mono" x="113.0" y="28.0" parentComponent="E2 Voice"
+                   width="10.0" height="10.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 2" parameterId="ForceMono" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 2 force mono output" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Force Mono Panel" x="113.0" y="28.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E2 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2Transposer" x="10.0" y="83.0" style="Horizontal"
+                   height="10.0" width="112.0" parentComponent="E2 Voice" bgColour="828892671"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   showTextBox="0" min="-12.0" max="12.0" stepSize="1.0" showValuePopup="Below"
+                   tooltip="set element 2 transpose &#177;12 semitones" middlePosition="0.0"
+                   enabled="0" visible="0"/>
+        <Component type="ScriptPanel" id="E2 Transpose Panel" x="7.0" y="80.0" bgColour="0"
+                   textColour="580942946" height="14.0" itemColour="2499805184"
+                   itemColour2="714956822" width="118.0" parentComponent="E2 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1" visible="0"/>
+        <Component type="ScriptButton" id="E2 Release Trigger On Off" x="61.0" y="119.0"
+                   parentComponent="E2 Voice" width="10.0" height="10.0" bgColour="545404384"
+                   itemColour="3355443" itemColour2="1118481" textColour="16777215"
+                   text="" scaleFactor="0.1000000014901161" processorId="E2 Release Trigger"
+                   parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 3 release trigger mode" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Release Trigger On Off Panel" x="61.0"
+                   y="119.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E2 Voice" borderRadius="0.0" text="" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptSlider" id="E2_PitchShift" x="10.0" y="83.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E2 Voice" bgColour="828892671"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   min="-12.0" showTextBox="0" showValuePopup="Below" middlePosition="0.0"
+                   tooltip="shift element 2 samplemap &#177; 12 semitones" stepSize="1.0"
+                   max="12.0"/>
+        <Component type="ScriptPanel" id="E2 Pitch Shift Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Voice"
+                   borderRadius="1.0" borderSize="1.0" enabled="0" locked="1"/>
+      </Component>
+      <Component type="ScriptPanel" id="E2 Envelope Panel" x="270.0" y="17.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E2 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 35" x="96.0" y="122.0" width="16.0"
+                   height="1.0" parentComponent="E2 Envelope Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="E2 label - attack" x="6.0" y="2.0" width="120.0"
+                   height="10.0" parentComponent="E2 Envelope Panel" text="ATTACK"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - attack1" x="6.0" y="28.0" width="120.0"
+                   height="10.0" parentComponent="E2 Envelope Panel" text="HOLD"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - decay" x="6.0" y="54.0" width="120.0"
+                   height="10.0" parentComponent="E2 Envelope Panel" text="DECAY"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - release" x="6.0" y="79.0" width="120.0"
+                   height="10.0" parentComponent="E2 Envelope Panel" text="RELEASE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Velocity Gain" x="6.0" y="106.0"
+                   width="94.0" height="10.0" parentComponent="E2 Envelope Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Velocity Exponentional" x="99.0"
+                   y="106.0" width="30.0" height="10.0" parentComponent="E2 Envelope Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptSlider" id="E2 Envelope Attack" x="10.0" y="15.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Gain Envelope"
+                   parameterId="Attack" mode="Time" max="1000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="250.0" defaultValue="1.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope attack time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Envelope Attack Panel" x="8.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Envelope Hold" x="10.0" y="41.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E2 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Gain Envelope"
+                   parameterId="Hold" mode="Time" max="30000.0" stepSize="1.0" suffix=" ms"
+                   middlePosition="5000.0" showValuePopup="Below" tooltip="set gain envelope hold time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Envelope Hold Panel" x="8.0" y="39.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Envelope Decay" x="10.0" y="66.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Gain Envelope"
+                   parameterId="Decay" mode="Time" max="60000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="10000.0" min="1.0" showValuePopup="Below"
+                   tooltip="set gain envelope decay time" defaultValue="60000.0"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Envelope Decay Panel" x="8.0" y="64.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Envelope Release" x="10.0" y="92.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Gain Envelope"
+                   parameterId="Release" defaultValue="1000.0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="5000.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope release time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Envelope Release Panel" x="8.0" y="90.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Velocity" x="10.0" y="119.0" style="Horizontal"
+                   height="8.0" width="86.0" parentComponent="E2 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E2 Gain Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set gain velocity range "
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Velocity Panel" x="8.0" y="117.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E2 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E2 Velocity Exponential On Off" x="110.0"
+                   y="118.0" parentComponent="E2 Envelope Panel" width="10.0" height="10.0"
+                   bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E2 Gain Velocity Modulator" parameterId="UseTable"
+                   filmstripImage="{PROJECT_FOLDER}Keys Button 3.png" tooltip="switch gain exponential velocity ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Velocity Exponential Mode Panel" x="110.0"
+                   y="118.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E2 Envelope Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1" borderSize="2.5"/>
+      </Component>
+      <Component type="ScriptPanel" id="E2 Filter Panel" x="403.0" y="16.0" width="370.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E2 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 24" x="230.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E2 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 25" x="208.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E2 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 26" x="208.0" y="96.0" width="12.0"
+                   height="1.0" parentComponent="E2 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="gfx - line 27" x="105.0" y="96.0" width="16.0"
+                   height="1.0" parentComponent="E2 Filter Panel" text="" textColour="16777215"
+                   bgColour="4286216826" editable="0" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter On Off" x="6.0" y="6.0"
+                   width="103.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="ACTIVE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Type" x="6.0" y="41.0"
+                   width="100.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="MODE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Frequency" x="6.0" y="80.0"
+                   width="100.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="FREQUENCY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Q" x="6.0" y="106.0" width="100.0"
+                   height="10.0" parentComponent="E2 Filter Panel" text="RESONANCE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Envelope" x="241.0"
+                   y="2.0" width="120.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="ENVELOPE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Envelope Attack" x="241.0"
+                   y="28.0" width="120.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="ATTACK" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Envelope Decay" x="241.0"
+                   y="54.0" width="120.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="DECAY" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Envelope Sustain" x="241.0"
+                   y="80.0" width="120.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="SUSTAIN" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Envelope Release" x="241.0"
+                   y="106.0" width="120.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="RELEASE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Velocity Attack" x="118.0"
+                   y="28.0" width="94.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" bgColour="16777215" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Velocity Attack Exponentional"
+                   x="210.0" y="28.0" width="30.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Velocity" x="118.0"
+                   y="80.0" width="94.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E2 label - Filter Velocity Exponentional"
+                   x="210.0" y="80.0" width="30.0" height="10.0" parentComponent="E2 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptButton" id="E2 Filter On Off" x="88.0" y="20.0" parentComponent="E2 Filter Panel"
+                   width="10.0" height="10.0" bgColour="16777215" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E2 Filter" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch filter ON or OFF" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter On Off Panel" x="88.0" y="20.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E2 Filter Panel"
+                   borderRadius="0.0" text="E2 Filter on/off" enabled="0" locked="1"/>
+        <Component type="ScriptComboBox" id="E2FilterType" x="8.0" y="54.0" parentComponent="E2 Filter Panel"
+                   height="17.0" width="96.0" bgColour="1399971211" itemColour="866068153"
+                   tooltip="set filter type" fontName="Cabin" textColour="4294690303"
+                   items="&#10;1P lowpass&#10;1P highpass&#10;SV lowpass&#10;SV highpass&#10;B4 lowpass&#10;B4 highpass&#10;Rez lowpass&#10;4P ladder&#10;Allpass"
+                   max="9"/>
+        <Component type="ScriptPanel" id="E2 Filter Type Panel" x="6.0" y="52.0"
+                   bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="100.0" parentComponent="E2 Filter Panel"
+                   borderRadius="1.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptFloatingTile" id="E2 Filter Display" x="9.0" y="8.0"
+                   width="60.0" height="30.0" parentComponent="E2 Filter Panel"
+                   bgColour="4281545523" itemColour="4294946816" itemColour2="16777215"
+                   ContentType="FilterDisplay" Data="{&#10;  &quot;ProcessorId&quot;: &quot;E2 Filter&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;GainRange&quot;: 24.0,&#10;  &quot;ShowLines&quot;: false&#10;}"/>
+        <Component type="ScriptPanel" id="E2 Filter Display Panel" x="6.0" y="6.0"
+                   bgColour="0" textColour="580942946" height="34.0" itemColour="2499805184"
+                   itemColour2="1116083869" width="64.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1">
+          <Component type="ScriptLabel" id="gfx - glasscover3" x="2.0" y="2.0" width="60.0"
+                     height="30.0" parentComponent="E2 Filter Display Panel" textColour="16777215"
+                     itemColour="1399971211" text="gfx - glasscover1" enabled="0"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptSlider" id="E2 Filter Frequency" x="9.0" y="93.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Frequency" min="20.0"
+                   max="20000.0" stepSize="1.0" suffix=" Hz" middlePosition="1500.0"
+                   processorId="E2 Filter" parameterId="Frequency" showValuePopup="Below"
+                   tooltip="set filter frequency" defaultValue="20000.0" isPluginParameter="1"
+                   pluginParameterName="Element 2 - Filter Frequency"/>
+        <Component type="ScriptPanel" id="E2 Filter Frequency Panel" x="7.0" y="91.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Resonance" x="9.0" y="119.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E2 Filter"
+                   parameterId="Q" min="0.300000011920929" max="8.0" middlePosition="1.0"
+                   showValuePopup="Below" tooltip="set filter resonance" defaultValue="0.300000011920929"
+                   isPluginParameter="1" pluginParameterName="Element 2 - Filter Resonance"/>
+        <Component type="ScriptPanel" id="E2 Filter Resonance Panel" x="7.0" y="117.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Intensity" x="245.0"
+                   y="15.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E2 Filter Envelope"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter envelope intensity"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Panel" x="243.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Attack" x="245.0"
+                   y="41.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="1000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="250.0" processorId="E2 Filter Envelope"
+                   parameterId="Attack" min="1.0" showValuePopup="Below" tooltip="set filter envelope attack time"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Attack Panel" x="243.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Velocity Attack" x="122.0"
+                   y="41.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E2 Filter Attack Level"
+                   parameterId="Intensity" middlePosition="0.5" showValuePopup="Below"
+                   tooltip="set filter envelope velocity attack intensity" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Velocity Attack Panel" x="120.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="E1 Filter Bias" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptButton" id="E2 Filter Exponential Velocity On Off"
+                   x="221.0" y="40.0" parentComponent="E2 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E2 Filter Attack Level" parameterId="UseTable" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="set filter env. attack velocity exponentional ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Exponential Velocity Panel"
+                   x="221.0" y="40.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E2 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1" borderSize="2.5"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Decay" x="245.0" y="67.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" processorId="E2 Filter Envelope"
+                   parameterId="Decay" middlePosition="10000.0" showValuePopup="Below"
+                   tooltip="set filter envelope decay time" text="" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Decay Panel" x="243.0"
+                   y="65.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Sustain" x="245.0"
+                   y="93.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Decibel" max="-12.0"
+                   processorId="E2 Filter Envelope" parameterId="Sustain" middlePosition="-20.0"
+                   showValuePopup="Below" tooltip="set filter envelope sustain level"
+                   min="-100.0" defaultValue="-100.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Sustain Panel" x="243.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Release" x="245.0"
+                   y="119.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E2 Filter Envelope"
+                   parameterId="Release" mode="Time" max="20000.0" stepSize="1.0"
+                   suffix=" ms" min="0.1000000014901161" middlePosition="5000.0"
+                   showValuePopup="Below" tooltip="set filter envelope release time"
+                   defaultValue="1000.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Release Panel" x="243.0"
+                   y="117.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E2 Filter Envelope Velocity" x="122.0"
+                   y="93.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E2 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E2 Filter Frequency Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter frequency velocity intensity"
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Envelope Velocity Panel" x="120.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E2 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E2 Filter Exponential Velocity2 On Off"
+                   x="221.0" y="92.0" parentComponent="E2 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E2 Filter Frequency Velocity Modulator" parameterId="UseTable"
+                   filmstripImage="{PROJECT_FOLDER}Keys Button 3.png" tooltip="set filter exponential velocity ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E2 Filter Exponential Velocity Panel2"
+                   x="221.0" y="92.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E2 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1" borderSize="2.5"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="gfx - 3D line 2" x="0.0" y="160.0" height="8.0"
+               width="776.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4283190348"
+               textColour="0" parentComponent="Panel2" borderSize="1.0" bgColour="16777215"/>
+    <Component type="ScriptPanel" id="E3 Panel" x="0.0" y="330.0" height="160.0"
+               width="776.0" itemColour2="4281545523" itemColour="4282532418"
+               textColour="1114599279" bgColour="16777215" borderRadius="2.0"
+               parentComponent="Panel2" text="*">
+      <Component type="ScriptLabel" id="gfx - line 5" x="6.0" y="13.0" width="766.0"
+                 height="2.0" parentComponent="E3 Panel" bgColour="553631041"/>
+      <Component type="ScriptLabel" id="E3 Tittle Label - SAMPLE" x="4.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E3 Panel" enabled="0"
+                 text="SAMPLE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E3 Tittle Label - GAIN" x="270.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E3 Panel" enabled="0"
+                 text="GAIN" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E3 Tittle Label - VOICE" x="137.0" y="2.0"
+                 width="132.0" height="12.0" parentComponent="E3 Panel" enabled="0"
+                 text="VOICE" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptLabel" id="E3 Tittle Label - FILTER" x="403.0" y="2.0"
+                 width="370.0" height="12.0" parentComponent="E3 Panel" enabled="0"
+                 text="FILTER" fontStyle="Black" editable="0" fontName="League Gothic"
+                 fontSize="16.0" itemColour2="1118481" itemColour="16777215" textColour="4293242182"/>
+      <Component type="ScriptPanel" id="E3 SampleStart Panel" x="4.0" y="16.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E3 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E3 label - Samplemap" x="6.0" y="2.0"
+                   width="123.0" height="10.0" parentComponent="E3 SampleStart Panel"
+                   text="ELEMENT 3" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Position" x="6.0" y="44.0"
+                   width="120.0" height="10.0" parentComponent="E3 SampleStart Panel"
+                   text="SAMPLESTART" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Random" x="6.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E3 SampleStart Panel" text="RANDOM"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Velocity" x="6.0" y="96.0"
+                   width="120.0" height="10.0" parentComponent="E3 SampleStart Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptComboBox" id="E3SampleMap" x="8.0" y="14.0" max="11"
+                   parentComponent="E3 SampleStart Panel" height="17.0" width="116.0"
+                   bgColour="1399971211" itemColour="1030219263" textColour="4289200011"
+                   text="" items="Piano 1&#10;Piano 1 ff&#10;Piano 1 mf&#10;Piano 1 noises&#10;Piano 1 release&#10;Piano 2&#10;Piano 2 ff&#10;Piano 2 mf&#10;Piano 2 noises&#10;Piano 2 release&#10;__________"
+                   tooltip="set element 3 samplemap" fontName="Cabin"/>
+        <Component type="ScriptPanel" id="E3 SampleMap Panel" x="6.0" y="12.0" bgColour="0"
+                   textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="120.0" parentComponent="E3 SampleStart Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 SampleStart Position" x="10.0" y="57.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Samplestart Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set samplestart point | slider full right = 0"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 SampleStart Position Panel" x="8.0"
+                   y="55.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E3 SampleStart Random" x="10.0" y="83.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Samplestart Random Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set randomize intensity of samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 SampleStart Random Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+        <Component type="ScriptSlider" id="E3 SampleStart Velocity" x="10.0" y="109.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 SampleStart Panel"
+                   bgColour="828892671" itemColour="4281850974" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Samplestart Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set intensity of velocity samplestart point"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 SampleStart Velocity Panel" x="8.0"
+                   y="107.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 SampleStart Panel"
+                   borderSize="1.0" enabled="0" locked="1" borderRadius="2.0"/>
+      </Component>
+      <Component type="ScriptPanel" id="E3 Voice" x="137.0" y="16.0" width="132.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E3 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="E3 label - Volume" x="7.0" y="44.0" width="120.0"
+                   height="10.0" parentComponent="E3 Voice" text="VOLUME" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Mono" x="86.0" y="14.0" width="43.0"
+                   height="10.0" parentComponent="E3 Voice" text="MONO" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - On Off" x="50.0" y="8.0" width="30.0"
+                   height="10.0" parentComponent="E3 Voice" text="ON" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Shift" x="7.0" y="70.0" width="120.0"
+                   height="10.0" parentComponent="E3 Voice" text="SHIFT" fontSize="10.0"
+                   fontName="Cabin" editable="0" fontStyle="Bold" alignment="right"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Release Trigger On Off" x="20.0"
+                   y="104.0" width="90.0" height="10.0" parentComponent="E3 Voice"
+                   text="RELEASE TRIGGER" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" enabled="0"/>
+        <Component type="ScriptSlider" id="E3 Volume" x="10.0" y="57.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E3 Voice" bgColour="828892671"
+                   itemColour="4294924119" itemColour2="1366024274" textColour="16738816"
+                   showTextBox="0" processorId="E3 Gain" parameterId="Gain" mode="Decibel"
+                   min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+                   middlePosition="-18.0" defaultValue="-3.0" showValuePopup="Below"
+                   tooltip="set element 3 volume" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Volume Panel" x="8.0" y="55.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3Transposer" x="10.0" y="83.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E3 Voice" bgColour="828892671"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   min="-12.0" showTextBox="0" showValuePopup="Below" middlePosition="0.0"
+                   tooltip="set element 3 transpose &#177;12 semitones" max="12.0"
+                   stepSize="1.0" enabled="0" visible="0"/>
+        <Component type="ScriptPanel" id="E3 Pitch Transpose Panel" x="7.0" y="80.0"
+                   bgColour="0" textColour="580942946" height="14.0" itemColour="2499805184"
+                   itemColour2="714956822" width="118.0" parentComponent="E3 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1" visible="0"/>
+        <Component type="ScriptButton" id="E3 On Off" x="60.0" y="22.0" parentComponent="E3 Voice"
+                   width="10.0" height="10.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 3" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 3 on/off" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 On Off Panel" x="60.0" y="22.0" bgColour="0"
+                   textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E3 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E3 Force Mono" x="113.0" y="28.0" parentComponent="E3 Voice"
+                   width="10.0" height="10.0" bgColour="545404384" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="Element 3" parameterId="ForceMono" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 3 force mono output" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Force Mono Panel" x="113.0" y="27.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E3 Voice"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E3 Release Trigger On Off" x="61.0" y="118.0"
+                   parentComponent="E3 Voice" width="10.0" height="10.0" bgColour="545404384"
+                   itemColour="3355443" itemColour2="1118481" textColour="16777215"
+                   text="" scaleFactor="0.1000000014901161" processorId="E3 Release Trigger"
+                   parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="element 3 release trigger mode" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Release Trigger On Off Panel" x="61.0"
+                   y="118.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E3 Voice" borderRadius="0.0" text="" enabled="0"
+                   locked="1" borderSize="2.5"/>
+        <Component type="ScriptSlider" id="E3_PitchShift" x="10.0" y="83.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E3 Voice" bgColour="828892671"
+                   itemColour="4283083007" itemColour2="1366024274" textColour="16738816"
+                   min="-12.0" showTextBox="0" showValuePopup="Below" middlePosition="0.0"
+                   tooltip="shift element 3 samplemap &#177; 12 semitones" stepSize="1.0"
+                   max="12.0"/>
+        <Component type="ScriptPanel" id="E3 Pitch Shift Panel" x="8.0" y="81.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Voice"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptLabel" id="E3 label - Transpose" x="7.0" y="70.0"
+                   width="120.0" height="10.0" parentComponent="E3 Voice" text="TRANSPOSE"
+                   fontSize="10.0" fontName="Cabin" textColour="4291414473" editable="0"
+                   fontStyle="Bold" alignment="right" visible="0"/>
+      </Component>
+      <Component type="ScriptPanel" id="E3 Envelope Panel" x="270.0" y="16.0"
+                 width="132.0" height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E3 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 32" x="97.0" y="70.0" width="12.0"
+                   height="1.0" parentComponent="E3 Envelope Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="gfx - line 33" x="97.0" y="122.0" width="12.0"
+                   height="1.0" parentComponent="E3 Envelope Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="E3 label - attack" x="6.0" y="2.0" width="120.0"
+                   height="10.0" parentComponent="E3 Envelope Panel" text="ATTACK"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - hold" x="6.0" y="28.0" width="120.0"
+                   height="10.0" parentComponent="E3 Envelope Panel" text="HOLD"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - decay" x="6.0" y="54.0" width="97.0"
+                   height="10.0" parentComponent="E3 Envelope Panel" text="DECAY"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - release" x="6.0" y="80.0" width="120.0"
+                   height="10.0" parentComponent="E3 Envelope Panel" text="RELEASE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Velocity Gain" x="6.0" y="106.0"
+                   width="94.0" height="10.0" parentComponent="E3 Envelope Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Velocity Exponentional" x="99.0"
+                   y="106.0" width="30.0" height="10.0" parentComponent="E3 Envelope Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0"/>
+        <Component type="ScriptLabel" id="E3 label - Velocity Decay On Off" x="99.0"
+                   y="54.0" width="30.0" height="10.0" parentComponent="E3 Envelope Panel"
+                   text="VEL" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   multiline="1" enabled="0"/>
+        <Component type="ScriptSlider" id="E3 Envelope Attack" x="10.0" y="15.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Gain Envelope"
+                   parameterId="Attack" mode="Time" max="1000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="250.0" defaultValue="1.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope attack time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Envelope Attack Panel" x="8.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Envelope Hold" x="10.0" y="41.0" style="Horizontal"
+                   height="8.0" width="112.0" parentComponent="E3 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Gain Envelope"
+                   parameterId="Hold" mode="Time" max="30000.0" stepSize="1.0" suffix=" ms"
+                   middlePosition="5000.0" showValuePopup="Below" tooltip="set gain envelope hold time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Envelope Hold Panel" x="8.0" y="39.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Envelope Decay" x="10.0" y="67.0"
+                   style="Horizontal" height="8.0" width="86.0" parentComponent="E3 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Gain Envelope"
+                   parameterId="Decay" mode="Time" max="60000.0" stepSize="1.0"
+                   suffix=" ms" middlePosition="10000.0" min="1.0" showValuePopup="Below"
+                   tooltip="set gain envelope decay time" defaultValue="60000.0"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Envelope Decay Panel" x="8.0" y="65.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Envelope Release" x="10.0" y="93.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Gain Envelope"
+                   parameterId="Release" defaultValue="1000.0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="5000.0" min="1.0"
+                   showValuePopup="Below" tooltip="set gain envelope release time"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Envelope Release Panel" x="8.0" y="91.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Velocity" x="10.0" y="119.0" style="Horizontal"
+                   height="8.0" width="86.0" parentComponent="E3 Envelope Panel"
+                   bgColour="828892671" itemColour="4294939904" itemColour2="1366024274"
+                   textColour="16738816" showTextBox="0" processorId="E3 Gain Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set gain velocity range "
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Velocity Panel" x="8.0" y="117.0" bgColour="0"
+                   textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E3 Velocity Exponential On Off" x="109.0"
+                   y="119.0" parentComponent="E3 Envelope Panel" width="10.0" height="10.0"
+                   bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="0" text="" scaleFactor="0.1000000014901161" processorId="E3 Gain Velocity Modulator"
+                   parameterId="UseTable" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch gain exponential velocity ON or OFF" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Velocity Exponential Mode Panel" x="110.0"
+                   y="118.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E3 Envelope Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E3 Velocity Decay On Off" x="109.0" y="67.0"
+                   parentComponent="E3 Envelope Panel" width="10.0" height="10.0"
+                   bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="0" text="" scaleFactor="0.1000000014901161" processorId="E3 Decay Velocity Modulator"
+                   parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="set element 3 velocity decay on/off" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Velocity Exponential Decay Panel" x="109.0"
+                   y="66.0" bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E3 Envelope Panel"
+                   borderRadius="0.0" text="" enabled="0" locked="1"/>
+      </Component>
+      <Component type="ScriptPanel" id="E3 Filter Panel" x="403.0" y="16.0" width="370.0"
+                 height="142.0" textColour="2386509631" itemColour="4282137660"
+                 bgColour="16777215" itemColour2="4280098077" borderSize="1.0"
+                 parentComponent="E3 Panel" borderRadius="3.0">
+        <Component type="ScriptLabel" id="gfx - line 28" x="231.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E3 Filter Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="gfx - line 29" x="208.0" y="44.0" width="12.0"
+                   height="1.0" parentComponent="E3 Filter Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="gfx - line 30" x="208.0" y="96.0" width="12.0"
+                   height="1.0" parentComponent="E3 Filter Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="gfx - line 31" x="106.0" y="96.0" width="16.0"
+                   height="1.0" parentComponent="E3 Filter Panel" text="" editable="0"
+                   enabled="0" bgColour="4286216826"/>
+        <Component type="ScriptLabel" id="E3 label - Filter On Off" x="6.0" y="6.0"
+                   width="103.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="ACTIVE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Type" x="6.0" y="41.0"
+                   width="100.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="MODE" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Frequency" x="6.0" y="80.0"
+                   width="100.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="FREQUENCY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Q" x="6.0" y="106.0" width="100.0"
+                   height="10.0" parentComponent="E3 Filter Panel" text="RESONANCE"
+                   fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Envelope" x="241.0"
+                   y="2.0" width="120.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="ENVELOPE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Envelope Attack" x="241.0"
+                   y="28.0" width="120.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="ATTACK" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Envelope Decay" x="241.0"
+                   y="54.0" width="120.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="DECAY" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Envelope Sustain" x="241.0"
+                   y="80.0" width="120.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="SUSTAIN" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Envelope Release" x="241.0"
+                   y="106.0" width="120.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="RELEASE" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Velocity Attack" x="118.0"
+                   y="28.0" width="94.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Velocity Attack Exponential"
+                   x="210.0" y="28.0" width="30.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Velocity" x="118.0"
+                   y="80.0" width="94.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="VELOCITY" fontSize="10.0" fontName="Cabin" editable="0"
+                   fontStyle="Bold" alignment="right" enabled="0" bgColour="16777215"/>
+        <Component type="ScriptLabel" id="E3 label - Filter Velocity Exponentional"
+                   x="210.0" y="80.0" width="30.0" height="10.0" parentComponent="E3 Filter Panel"
+                   text="EXP" fontSize="10.0" fontName="Cabin" editable="0" fontStyle="Bold"
+                   enabled="0" bgColour="16777215"/>
+        <Component type="ScriptButton" id="E3 Filter On Off" x="89.0" y="20.0" parentComponent="E3 Filter Panel"
+                   width="10.0" height="10.0" bgColour="16777215" itemColour="3355443"
+                   itemColour2="1118481" textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E3 Filter" parameterId="Enabled" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="switch filter ON or OFF" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter On Off Panel" x="89.0" y="20.0"
+                   bgColour="0" textColour="1737198475" height="10.0" itemColour="1317585351"
+                   itemColour2="503289088" width="10.0" parentComponent="E3 Filter Panel"
+                   borderRadius="0.0" text="E1 Filter on/off" enabled="0" locked="1"/>
+        <Component type="ScriptComboBox" id="E3FilterType" x="8.0" y="54.0" parentComponent="E3 Filter Panel"
+                   height="17.0" width="96.0" bgColour="1399971211" itemColour="866068153"
+                   tooltip="set filter type" fontName="Cabin" textColour="4294690303"
+                   items="&#10;1P lowpass&#10;1P highpass&#10;SV lowpass&#10;SV highpass&#10;B4 lowpass&#10;B4 highpass&#10;Rez lowpass&#10;4P ladder&#10;Allpass"
+                   max="9"/>
+        <Component type="ScriptPanel" id="E3 Filter Type Panel" x="6.0" y="52.0"
+                   bgColour="0" textColour="580942946" height="20.0" itemColour="2499805184"
+                   itemColour2="714956822" width="100.0" parentComponent="E3 Filter Panel"
+                   borderRadius="1.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptFloatingTile" id="E3 Filter Display" x="9.0" y="8.0"
+                   width="60.0" height="30.0" parentComponent="E3 Filter Panel"
+                   bgColour="4281545523" itemColour="4294946816" itemColour2="16777215"
+                   ContentType="FilterDisplay" Data="{&#10;  &quot;ProcessorId&quot;: &quot;E3 Filter&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false,&#10;  &quot;GainRange&quot;: 24.0,&#10;  &quot;ShowLines&quot;: false&#10;}"/>
+        <Component type="ScriptPanel" id="E3 Filter Display Panel" x="6.0" y="6.0"
+                   bgColour="0" textColour="580942946" height="34.0" itemColour="2499805184"
+                   itemColour2="1116083869" width="64.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1">
+          <Component type="ScriptLabel" id="gfx - glasscover4" x="2.0" y="2.0" width="60.0"
+                     height="30.0" parentComponent="E3 Filter Display Panel" textColour="16777215"
+                     itemColour="1399971211" text="gfx - glasscover1" enabled="0"
+                     editable="0"/>
+        </Component>
+        <Component type="ScriptSlider" id="E3 Filter Frequency" x="9.0" y="93.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Frequency" min="20.0"
+                   max="20000.0" stepSize="1.0" suffix=" Hz" middlePosition="1500.0"
+                   processorId="E3 Filter" parameterId="Frequency" showValuePopup="Above"
+                   tooltip="set filter frequency" defaultValue="20000.0" isPluginParameter="1"
+                   pluginParameterName="Element 3 - Filter Frequency"/>
+        <Component type="ScriptPanel" id="E3 Filter Frequency Panel" x="7.0" y="91.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Resonance" x="9.0" y="119.0"
+                   style="Horizontal" height="8.0" width="94.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E3 Filter"
+                   parameterId="Q" min="0.300000011920929" max="8.0" middlePosition="1.0"
+                   showValuePopup="Above" tooltip="set filter resonance" defaultValue="0.300000011920929"
+                   isPluginParameter="1" pluginParameterName="Element 3 - Filter Resonance"/>
+        <Component type="ScriptPanel" id="E3 Filter Resonance Panel" x="7.0" y="117.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="98.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Intensity" x="245.0"
+                   y="15.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E3 Filter Envelope"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter envelope intensity"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Panel" x="243.0" y="13.0"
+                   bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Attack" x="245.0"
+                   y="41.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="1000.0"
+                   stepSize="1.0" suffix=" ms" middlePosition="250.0" processorId="E3 Filter Envelope"
+                   parameterId="Attack" min="1.0" showValuePopup="Below" tooltip="set filter envelope attack time"
+                   defaultValue="1.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Attack Panel" x="243.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Velocity Attack" x="122.0"
+                   y="41.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E3 Filter Attack Level"
+                   parameterId="Intensity" middlePosition="0.5" showValuePopup="Below"
+                   tooltip="set filter envelope velocity attack intensity" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Velocity Attack Panel" x="120.0"
+                   y="39.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="E1 Filter Bias" enabled="0"
+                   locked="1"/>
+        <Component type="ScriptButton" id="E3 Filter Exponential Velocity On Off"
+                   x="221.0" y="40.0" parentComponent="E3 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.1000000014901161"
+                   processorId="E3 Filter Attack Level" parameterId="UseTable" filmstripImage="{PROJECT_FOLDER}Keys Button 3.png"
+                   tooltip="set filter env. attack velocity exponentional ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Exponential Velocity Panel"
+                   x="221.0" y="40.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E3 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Decay" x="245.0" y="67.0"
+                   style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Time" max="20000.0"
+                   stepSize="1.0" suffix=" ms" processorId="E3 Filter Envelope"
+                   parameterId="Decay" middlePosition="10000.0" showValuePopup="Below"
+                   tooltip="set filter envelope decay time" text="" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Decay Panel" x="243.0"
+                   y="65.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Sustain" x="245.0"
+                   y="93.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" mode="Decibel" max="-12.0"
+                   processorId="E3 Filter Envelope" parameterId="Sustain" middlePosition="-20.0"
+                   showValuePopup="Below" tooltip="set filter envelope sustain level"
+                   min="-100.0" defaultValue="-100.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Sustain Panel" x="243.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Release" x="245.0"
+                   y="119.0" style="Horizontal" height="8.0" width="112.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E3 Filter Envelope"
+                   parameterId="Release" mode="Time" max="20000.0" stepSize="1.0"
+                   suffix=" ms" min="0.1000000014901161" middlePosition="5000.0"
+                   showValuePopup="Below" tooltip="set filter envelope release time"
+                   defaultValue="1000.0" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Release Panel" x="243.0"
+                   y="117.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="116.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptSlider" id="E3 Filter Envelope Velocity" x="122.0"
+                   y="93.0" style="Horizontal" height="8.0" width="86.0" parentComponent="E3 Filter Panel"
+                   bgColour="1030219263" itemColour="4291777535" itemColour2="1248583762"
+                   textColour="16738816" showTextBox="0" processorId="E3 Filter Frequency Velocity Modulator"
+                   parameterId="Intensity" showValuePopup="Below" tooltip="set filter frequency velocity intensity"
+                   defaultValue="0.5" enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Envelope Velocity Panel" x="120.0"
+                   y="91.0" bgColour="0" textColour="580942946" height="12.0" itemColour="2499805184"
+                   itemColour2="714956822" width="90.0" parentComponent="E3 Filter Panel"
+                   borderRadius="2.0" borderSize="1.0" text="" enabled="0" locked="1"/>
+        <Component type="ScriptButton" id="E3 Filter Exponential Velocity On Off2"
+                   x="221.0" y="92.0" parentComponent="E3 Filter Panel" width="10.0"
+                   height="10.0" bgColour="545404384" itemColour="3355443" itemColour2="1118481"
+                   textColour="16777215" text="" scaleFactor="0.09799999743700027"
+                   processorId="E3 Filter Frequency Velocity Modulator" parameterId="UseTable"
+                   filmstripImage="{PROJECT_FOLDER}Keys Button 3.png" tooltip="set filter exponential velocity ON or OFF"
+                   enableMidiLearn="0"/>
+        <Component type="ScriptPanel" id="E3 Filter Exponential Velocity Panel2"
+                   x="221.0" y="92.0" bgColour="0" textColour="1737198475" height="10.0"
+                   itemColour="1317585351" itemColour2="503289088" width="10.0"
+                   parentComponent="E3 Filter Panel" borderRadius="0.0" text=""
+                   enabled="0" locked="1"/>
+      </Component>
+    </Component>
+    <Component type="ScriptPanel" id="gfx - 3D line 3" x="0.0" y="323.0" height="8.0"
+               width="776.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4283190348"
+               textColour="0" parentComponent="Panel2" borderSize="1.0" bgColour="16777215"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel3" x="2.0" y="29.0" width="776.0"
+             height="630.0" bgColour="0" itemColour="0" itemColour2="0" textColour="1114599279"
+             visible="0">
+    <Component type="ScriptPanel" id="Browser Panel" x="1.0" y="4.0" parentComponent="Panel3"
+               width="774.0" height="622.0" itemColour="4281940281" itemColour2="4281019179"
+               textColour="1198485359" bgColour="0" borderRadius="2.0">
+      <Component type="ScriptPanel" id="background" x="6.0" y="54.0" width="224.0"
+                 height="424.0" textColour="4144959" itemColour="3750201" bgColour="16777215"
+                 itemColour2="4280295456" borderSize="1.0" borderRadius="3.0"
+                 parentComponent="Browser Panel" text="background p1"/>
+      <Component type="ScriptPanel" id="background1" x="236.0" y="54.0" width="228.0"
+                 height="424.0" textColour="4144959" itemColour="3750201" bgColour="16777215"
+                 itemColour2="4280295456" borderSize="1.0" borderRadius="3.0"
+                 parentComponent="Browser Panel" text="background p1"/>
+      <Component type="ScriptPanel" id="background2" x="471.0" y="54.0" width="297.0"
+                 height="424.0" textColour="4144959" itemColour="3750201" bgColour="16777215"
+                 itemColour2="4280295456" borderSize="1.0" borderRadius="3.0"
+                 parentComponent="Browser Panel" text="background p1"/>
+    </Component>
+    <Component type="ScriptFloatingTile" id="Browser" x="-1.0" y="12.0" parentComponent="Panel3"
+               width="778.0" height="480.0" ContentType="PresetBrowser" bgColour="0"
+               itemColour="2764947630" itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: false,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: true,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3,&#10;    0.3,&#10;    0.4&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+               textColour="4290619271" Font="Cabin"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 7" x="3.0" y="439.0" height="5.0"
+               width="769.0" borderRadius="1.0" itemColour="4280887593" itemColour2="4283190348"
+               textColour="488447261" bgColour="9145227" borderSize="1.0" parentComponent="Panel3"
+               enabled="0"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 8" x="3.0" y="50.0" height="5.0"
+               width="769.0" borderRadius="1.0" itemColour="4280887593" itemColour2="4283782485"
+               textColour="488447261" bgColour="9145227" borderSize="1.0" parentComponent="Panel3"
+               enabled="0"/>
+  </Component>
+  <Component type="ScriptPanel" id="Panel4" x="2.0" y="29.0" width="776.0"
+             height="630.0" bgColour="0" itemColour="0" itemColour2="0" textColour="1114599279"
+             visible="0">
+    <Component type="ScriptPanel" id="Background" x="1.0" y="4.0" parentComponent="Panel4"
+               width="774.0" height="622.0" itemColour="5197647" itemColour2="4282269246"
+               textColour="1852796783" bgColour="0" borderRadius="2.0" enabled="0">
+      <Component type="ScriptPanel" id="background color" x="2.0" y="5.0" width="770.0"
+                 height="476.0" textColour="4144959" itemColour="4282992969" bgColour="16777215"
+                 itemColour2="4280492835" parentComponent="Background" text="background p1"
+                 borderRadius="2.0" enabled="0"/>
+    </Component>
+    <Component type="ScriptPanel" id="Settings 1 bckg panel" x="6.0" y="37.0"
+               width="355.0" height="140.0" textColour="2386509631" itemColour="4282137660"
+               bgColour="16777215" itemColour2="4281150765" borderSize="1.0"
+               parentComponent="Panel4" borderRadius="3.0"/>
+    <Component type="ScriptFloatingTile" id="Settings 1" x="23.0" y="59.0" width="300.0"
+               height="100.0" parentComponent="Panel4" ContentType="CustomSettings"
+               bgColour="0" itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+               Font="Cabin" textColour="4291480266"/>
+    <Component type="ScriptPanel" id="CBox Mask 1" x="144.0" y="72.0" width="142.0"
+               height="32.0" borderSize="3.0" bgColour="16777215" itemColour="2348810240"
+               itemColour2="1199406461" borderRadius="3.0" textColour="4281019179"
+               enabled="0" parentComponent="Panel4"/>
+    <Component type="ScriptPanel" id="CBox Mask 2" x="144.0" y="114.0" width="142.0"
+               height="32.0" borderSize="3.0" bgColour="16777215" itemColour="2348810240"
+               itemColour2="1199406461" borderRadius="3.0" textColour="4281019179"
+               enabled="0" parentComponent="Panel4"/>
+    <Component type="ScriptPanel" id="Settings 2 bckg panel" x="6.0" y="206.0"
+               width="355.0" height="140.0" textColour="2386509631" itemColour="4281150765"
+               bgColour="16777215" itemColour2="4281545523" borderSize="1.0"
+               parentComponent="Panel4" borderRadius="3.0"/>
+    <Component type="ScriptFloatingTile" id="Settings 2" x="35.0" y="230.0"
+               width="300.0" height="100.0" parentComponent="Panel4" ContentType="CustomSettings"
+               bgColour="0" itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: false,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: false,&#10;  &quot;SampleLocation&quot;: true,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+               Font="Cabin" textColour="4291480266"/>
+    <Component type="ScriptPanel" id="CBox Mask 3" x="49.0" y="245.0" width="260.0"
+               height="32.0" borderSize="3.0" bgColour="16777215" itemColour="1117230999"
+               itemColour2="3204448256" borderRadius="10.0" textColour="4280624421"
+               enabled="0" parentComponent="Panel4"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 12" x="3.0" y="9.0" height="5.0"
+               width="362.0" borderRadius="1.0" itemColour="1763647263" itemColour2="744382046"
+               textColour="253895202" parentComponent="Panel4" borderSize="1.0"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 9" x="3.0" y="32.0" height="5.0"
+               width="362.0" borderRadius="1.0" itemColour="1763647263" itemColour2="744382046"
+               textColour="253895202" parentComponent="Panel4" borderSize="1.0"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 5" x="3.0" y="179.0" height="5.0"
+               width="362.0" borderRadius="1.0" itemColour="1763647263" itemColour2="744382046"
+               textColour="253895202" parentComponent="Panel4" borderSize="1.0"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 10" x="3.0" y="201.0" height="5.0"
+               width="362.0" borderRadius="1.0" itemColour="1763647263" itemColour2="744382046"
+               textColour="253895202" parentComponent="Panel4" borderSize="1.0"/>
+    <Component type="ScriptPanel" id="gfx - 3D line 11" x="3.0" y="346.0" height="5.0"
+               width="770.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4281150765"
+               textColour="553648127" parentComponent="Panel4" borderSize="1.0"/>
+    <Component type="ScriptLabel" id="gfx - cb border 1" x="148.0" y="78.0"
+               parentComponent="Panel4" text="" textColour="16777215" bgColour="16777215"
+               itemColour="922746879" height="22.0" width="135.0" enabled="0"
+               editable="0"/>
+    <Component type="ScriptLabel" id="gfx - cb border 2" x="148.0" y="119.0"
+               parentComponent="Panel4" text="" textColour="16777215" bgColour="16777215"
+               itemColour="922746879" height="22.0" width="135.0" enabled="0"
+               editable="0"/>
+    <Component type="ScriptPanel" id="MIDI Learn Panel Background" x="361.0"
+               y="11.0" width="409.0" height="335.0" textColour="2386509631"
+               itemColour="4283979864" bgColour="16777215" itemColour2="4279571733"
+               borderSize="1.0" parentComponent="Panel4" borderRadius="3.0"/>
+    <Component type="ScriptFloatingTile" id="Clear MIDI CC button" x="426.0"
+               y="292.0" width="300.0" height="50.0" parentComponent="Panel4"
+               ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+               itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: false,&#10;  &quot;ScaleFactor&quot;: false,&#10;  &quot;VoiceAmountMultiplier&quot;: false,&#10;  &quot;ClearMidiCC&quot;: true,&#10;  &quot;SampleLocation&quot;: false,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: false,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+               Font="Cabin"/>
+    <Component type="ScriptFloatingTile" id="MIDI Learn Panel" x="366.0" y="30.0"
+               parentComponent="Panel4" width="400.0" height="274.0" ContentType="MidiLearnPanel"
+               bgColour="592137" itemColour="4281282351" itemColour2="0" Font="Cabin"
+               textColour="2650800127"/>
+    <Component type="ScriptPanel" id="CBox Mask 4" x="441.0" y="306.0" width="260.0"
+               height="32.0" borderSize="3.0" bgColour="16777215" itemColour="1117230999"
+               itemColour2="3204448256" borderRadius="10.0" textColour="4279703319"
+               enabled="0" parentComponent="Panel4"/>
+    <Component type="ScriptLabel" id="label - Sample Folder" x="6.0" y="187.0"
+               width="355.0" height="10.0" parentComponent="Panel4" text="SAMPLE FOLDER"
+               fontSize="12.0" fontName="Cabin" textColour="4290361785" editable="0"
+               fontStyle="Bold"/>
+    <Component type="ScriptLabel" id="label - Display and Voice Limit" x="6.0"
+               y="18.0" width="355.0" height="10.0" parentComponent="Panel4"
+               text="DISPLAY &amp; VOICE LIMIT" fontSize="12.0" fontName="Cabin"
+               textColour="4290361785" editable="0" fontStyle="Bold"/>
+    <Component type="ScriptLabel" id="label - Display and Voice Limit1" x="364.0"
+               y="14.0" width="404.0" height="12.0" parentComponent="Panel4"
+               text="MIDI CONTINUOUS CONTROLLER PANEL" fontSize="12.0" fontName="Cabin"
+               editable="0" fontStyle="Bold" bgColour="4283979864" itemColour="1114994037"
+               itemColour2="4215028796" textColour="4290361785"/>
+    <Component type="ScriptLabel" id="gfx - cb border 3" x="363.0" y="27.0"
+               parentComponent="Panel4" text="" textColour="16777215" bgColour="16777215"
+               height="317.0" width="405.0" enabled="0" editable="0" itemColour="2589546841"/>
+    <Component type="ScriptPanel" id="info and credits" x="8.0" y="356.0" parentComponent="Panel4"
+               width="759.0" height="122.0" enabled="0" borderRadius="2.0" borderSize="1.0"
+               bgColour="16777215" itemColour="4281479730" textColour="4281282351">
+      <Component type="ScriptLabel" id="info credits 1" x="120.0" y="11.0" parentComponent="info and credits"
+                 width="510.0" height="20.0" text="CREATOOLS | PIANO XS (ver 1.1.0) is a GPLv3 license open source virtual instrument built using HISE framework (hise.dev)"
+                 fontName="Cabin-Bold" fontStyle="Regular" enabled="0" editable="0"
+                 textColour="4294964704" fontSize="14.0"/>
+      <Component type="ScriptLabel" id="info credits 6" x="118.0" y="29.0" parentComponent="info and credits"
+                 width="510.0" height="20.0" text="Visit https://musictop69.wixsite.com/creatools to get updates, source files and more"
+                 fontName="Cabin-Bold" fontStyle="Regular" enabled="0" editable="0"
+                 textColour="4294964704" fontSize="14.0"/>
+      <Component type="ScriptLabel" id="info credits 2" x="40.0" y="43.0" parentComponent="info and credits"
+                 width="660.0" height="40.0" text="This instrument uses&#160;following piano sample libraries:&#160;                                                                                                                                                                 Salamander piano made by Alexander Holm (CC-BY-3.0), and&#160;Bitklavier&#160;- opensource project at Princeton University (CC-BY-4.0)"
+                 fontName="Cabin-Bold" fontStyle="Regular" enabled="0" fontSize="14.0"
+                 editable="0" textColour="4294964704"/>
+      <Component type="ScriptLabel" id="info credits 4" x="41.0" y="77.0" parentComponent="info and credits"
+                 width="660.0" height="20.0" text="Special thanks to HISE forum community for their help and generosity."
+                 fontName="Cabin-Bold" fontStyle="Regular" enabled="0" fontSize="14.0"
+                 editable="0" textColour="4294964704"/>
+      <Component type="ScriptLabel" id="info credits 5" x="37.0" y="93.0" parentComponent="info and credits"
+                 width="660.0" height="20.0" text="VST is a trademark of Steinberg Media Technologies GmbH, registered in Europe and other countries."
+                 fontName="Cabin-Bold" fontStyle="Regular" enabled="0" fontSize="14.0"
+                 editable="0" textColour="4294964704"/>
+      <Component type="ScriptLabel" id="info credits 3" x="70.0" y="5.0" parentComponent="info and credits"
+                 enabled="0" width="600.0" height="110.0" bgColour="788529152"
+                 itemColour="4198646338" itemColour2="4213318178" textColour="16777215"
+                 editable="0" text=""/>
+      <Component type="ScriptImage" id="vst logo" x="690.0" y="75.0" parentComponent="info and credits"
+                 fileName="{PROJECT_FOLDER}licensing_3.png" width="60.0" height="36.0"
+                 blendMode="Lighten" alpha="0.2300000041723251" visible="0"/>
+    </Component>
+  </Component>
+  <Component type="ScriptPanel" id="gfx - 3D line 1" x="2.0" y="28.0" height="8.0"
+             width="813.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4282729797"
+             textColour="0" bgColour="16777215" borderSize="1.0"/>
+  <Component type="ScriptPanel" id="gfx - 3D line 4" x="2.0" y="515.0" height="8.0"
+             width="813.0" borderRadius="1.0" itemColour="4280098077" itemColour2="4282729797"
+             textColour="16777215" borderSize="1.0"/>
+  <Component type="ScriptButton" id="LibraryButton" x="288.0" y="7.0" width="210.0"
+             height="20.0" saveInPreset="0" processorId="" linkedTo="Button3"
+             filmstripImage="{PROJECT_FOLDER}empty2.png" itemColour="0" bgColour="0"
+             itemColour2="0" textColour="0" setValueOnClick="1" tooltip="click to open preset library"
+             enableMidiLearn="0"/>
+</ContentProperties>

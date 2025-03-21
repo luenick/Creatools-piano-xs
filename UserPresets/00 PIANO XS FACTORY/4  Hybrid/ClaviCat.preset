@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Preset Version="1.0.0">
+<Preset Version="1.1.0">
   <Content Processor="Interface">
     <Control type="ScriptSlider" id="PHKnob" value="0.0"/>
     <Control type="ScriptSlider" id="Compression Threshold" value="-14.69999980926514"/>
     <Control type="ScriptSlider" id="Compression Ratio" value="2.900000095367432"/>
     <Control type="ScriptButton" id="Compression On Off" value="1.0"/>
     <Control type="ScriptSlider" id="Master Volume" value="-3.099999189376831"/>
-    <Control type="ScriptSlider" id="Master Panorama" value="0.0"/>
-    <Control type="ScriptSlider" id="Master Image" value="65.0"/>
+    <Control type="ScriptSlider" id="Master Panorama" value="1.0"/>
+    <Control type="ScriptSlider" id="Master Image" value="100.0"/>
     <Control type="ScriptSlider" id="Master Transpose" value="0.0"/>
     <Control type="ScriptComboBox" id="Impulse" value="7.0"/>
     <Control type="ScriptSlider" id="Reverb Reflection" value="184.0"/>
-    <Control type="ScriptSlider" id="Reverb Send" value="-35.0"/>
+    <Control type="ScriptSlider" id="Reverb Send" value="-25.0"/>
     <Control type="ScriptButton" id="Reverb Low Cut On Off" value="1.0"/>
     <Control type="ScriptButton" id="Reverb Send On Off" value="1.0"/>
     <Control type="ScriptComboBox" id="Impulse1" value="3.0"/>
@@ -29,11 +29,11 @@
     <Control type="ScriptSlider" id="E1 SampleStart Position" value="0.800000011920929"/>
     <Control type="ScriptSlider" id="E1 SampleStart Random" value="0.3799999952316284"/>
     <Control type="ScriptSlider" id="E1 SampleStart Velocity" value="0.6399999856948853"/>
-    <Control type="ScriptSlider" id="E1 Volume" value="0.0"/>
+    <Control type="ScriptSlider" id="E1 Volume" value="-1.099998474121094"/>
     <Control type="ScriptButton" id="E1 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E1 Force Mono" value="1.0"/>
-    <Control type="ScriptSlider" id="E1 Transpose" value="-12.0"/>
-    <Control type="ScriptSlider" id="E1_PitchShift" value="1.0"/>
+    <Control type="ScriptSlider" id="E1Transposer" value="0.0"/>
+    <Control type="ScriptSlider" id="E1_PitchShift" value="7.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Attack" value="9.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Release1" value="0.0"/>
     <Control type="ScriptSlider" id="E1 Envelope Decay" value="3344.0"/>
@@ -62,7 +62,7 @@
     <Control type="ScriptSlider" id="E2 Volume" value="-0.2999985218048096"/>
     <Control type="ScriptButton" id="E2 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E2 Force Mono" value="0.0"/>
-    <Control type="ScriptSlider" id="E2 Transpose" value="12.0"/>
+    <Control type="ScriptSlider" id="E2Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E2 Release Trigger On Off" value="0.0"/>
     <Control type="ScriptSlider" id="E2_PitchShift" value="1.0"/>
     <Control type="ScriptSlider" id="E2 Envelope Attack" value="4.0"/>
@@ -91,7 +91,7 @@
     <Control type="ScriptSlider" id="E3 SampleStart Random" value="0.5400000214576721"/>
     <Control type="ScriptSlider" id="E3 SampleStart Velocity" value="1.0"/>
     <Control type="ScriptSlider" id="E3 Volume" value="-10.69999885559082"/>
-    <Control type="ScriptSlider" id="E3_Transpose" value="0.0"/>
+    <Control type="ScriptSlider" id="E3Transposer" value="0.0"/>
     <Control type="ScriptButton" id="E3 On Off" value="1.0"/>
     <Control type="ScriptButton" id="E3 Force Mono" value="1.0"/>
     <Control type="ScriptButton" id="E3 Release Trigger On Off" value="1.0"/>
@@ -119,6 +119,11 @@
     <Control type="ScriptButton" id="E3 Filter Exponential Velocity On Off2"
              value="0.0"/>
   </Content>
-  <MidiAutomation/>
+  <MidiAutomation>
+    <Controller Controller="1" Processor="Interface" MacroIndex="-1" Start="-44.09"
+                End="-25.0" FullStart="-50.0" FullEnd="-20.0" Skew="1.0" Interval="0.01"
+                Converter="51.nT6K8ChJQE..VEFa0U1Pu4lckIGckIG.AHPXiQWZ1UF.ADf.yUmYlkFd.DPAE.BYBA.."
+                Attribute="Reverb Send" Inverted="0"/>
+  </MidiAutomation>
   <MPEData Enabled="0"/>
 </Preset>
